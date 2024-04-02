@@ -11,6 +11,6 @@ https://docs.google.com/document/d/1IJ-cV1o2Ka36fiWwwgnNiymw2SvC3ndocS-qIBZWNsw/
 
 ## Work Update
 | Date | Week | Description |
-| ---- | --- | ------------------ |
+| ---- | --- | ------------------------------------ |
 | 2/4/2024 | Week 6 | Domain Model, Use Case Model |
 |   | | |
