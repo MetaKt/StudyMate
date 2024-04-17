@@ -106,11 +106,13 @@ The system admin is tasked with managing various aspects of the platform, includ
 Ensuring the security and integrity of the platform is a key responsibility of the system admin. They are responsible for monitoring content for inappropriate behaviour, taking measures to address reports from users, and implementing security protocols to safeguard the platform and its users from potential threats or breaches.
 
 ## 4.2 Use case
-![StudyMate_UseCase-UseCase_User](https://github.com/MetaKt/StudyMate/assets/131533232/1b66d673-afff-4e94-9680-d9dfed988a1c)
+![StudyMate_UseCase-UseCase_User](https://github.com/MetaKt/StudyMate/assets/131533232/c9571549-8018-4b7b-9cac-4d8019e94ec3)
 
-Figure 4.2.1 UseCase Diagram for User
+<p align = "center"> Figure 4.2.1 UseCase Diagram for User </p>
 
-The Use Case Diagram depicts the features an actor is capable of accessing. For our StudyMate Use Case Diagram, it is separated into two distinct diagrams for the ease of understanding. Figure 4.2.1 above is the Use Case Diagram for Users, representing all the actions a user can perform in StudyMate platform: Login, Join Group, Create Group, Share Resources, Share Post, Like Post, Post, Browse General Library, Edit Profile, and Edit Group. 
+The Use Case Diagram depicts the features an actor is capable of accessing. For our StudyMate Use Case Diagram, it is separated into two distinct diagrams for the ease of comprehension. Figure 4.2.1 above is the Use Case Diagram for Users, representing all the actions a user can perform in StudyMate platform: Login, Sign Up, Join Group, Create Group, Share Resources, Share Post, Like Post, Post, Browse General Library, Edit Profile, and Edit Group. 
+
+
 
 
 
