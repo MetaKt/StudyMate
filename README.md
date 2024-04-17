@@ -15,6 +15,7 @@ https://docs.google.com/document/d/1IJ-cV1o2Ka36fiWwwgnNiymw2SvC3ndocS-qIBZWNsw/
 | 2/4/2024 | Week 6 | Domain Model, Use Case Model |
 | 5/4/2024 | Week 6 | System Sequence Diagrams |
 | 16/4/2024 | Week 8 | Domain Model 2.0, Use Case Model 2.0 |
+| 17/4/2024 | Week 8 | Document description |
 
 ##  1 Introduction
 As the landscape of education evolves, students encounter new challenges in their learning journey. The increasing complexity of academic subjects, coupled with the need for collaborative learning in today's fast-paced world, has prompted the development of StudyMate. Recognizing the difficulties students face in finding suitable study groups, sharing knowledge effectively, and 
@@ -67,10 +68,6 @@ In this chapter we will see the System Design of the StudyMate software modeling
 
 In this chapter, we will elucidate the architectural components, data flow mechanisms, and interaction protocols that underpin StudyMate’s functionality. By exploring the system’s design rationale, you will gain insights into the foundational principles guiding its development and evolution.
 
-The Studymate system is mainly separated into 2 systems:
--Users system
--Admin system
-
 Our approach to system design is rooted in modularity, extensibility, and maintainability, ensuring that StudyMate can adapt to evolving educational paradigms and technological advancements. Through comprehensive architectural diagrams, interface specifications, and design patterns, we aim to provide below a comprehensive roadmap for stakeholders involved in the development and utilization of StudyMate.
 
 ## 4.1 Domain model
@@ -107,4 +104,6 @@ The system admin holds additional permissions and responsibilities compared to r
 The system admin is tasked with managing various aspects of the platform, including content moderation, group management, and user account administration(managing user profile/accounts by handling tasks such as creating, deleting, and resetting passwords). They have the authority to create, edit, and delete study groups as needed, ensuring the platform remains organized and conducive to learning.
 Ensuring the security and integrity of the platform is a key responsibility of the system admin. They are responsible for monitoring content for inappropriate behaviour, taking measures to address reports from users, and implementing security protocols to safeguard the platform and its users from potential threats or breaches.
 
+## 4.2 Use case
 
+## 4.3 Sequence diagram
