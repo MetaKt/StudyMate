@@ -38,9 +38,9 @@ The website will serve as a productive hub for educational support, foster a com
 
 ## 1.3 Intended audience
 The intended audience for this document includes:
--Project developers
--Project managers
--Project designers
+<br>-Project developers
+<br>-Project managers
+<br>-Project designers
 -Project implementers
 -Project testers
 -Project stakeholders
