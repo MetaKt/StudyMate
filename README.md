@@ -72,6 +72,7 @@ Our approach to system design is rooted in modularity, extensibility, and mainta
 
 ## 4.1 Domain model
 ![StudyMate_Domain Model](https://github.com/MetaKt/StudyMate/assets/91473477/f72e3cd6-b504-4b6a-9892-8c3ba020231a)
+
 Figure 4.1.1 Logical Structural View: Domain Model Diagram
 
 The domain model provides an abstract, high-level overview of the key components within the StudyMate platform, illustrating how users interact with study groups, group activities, general resources, and the ranking system based on their interests. while also outlining the role and responsibilities of the system admin in managing the platform and ensuring security.
@@ -106,6 +107,7 @@ Ensuring the security and integrity of the platform is a key responsibility of t
 
 ## 4.2 Use case
 ![StudyMate_UseCase-UseCase_User](https://github.com/MetaKt/StudyMate/assets/131533232/1b66d673-afff-4e94-9680-d9dfed988a1c)
+
 Figure 4.2.1 UseCase Diagram for User
 
 The Use Case Diagram depicts the features an actor is capable of accessing. For our StudyMate Use Case Diagram, it is separated into two distinct diagrams for the ease of understanding. Figure 4.2.1 above is the Use Case Diagram for Users, representing all the actions a user can perform in StudyMate platform: Login, Join Group, Create Group, Share Resources, Share Post, Like Post, Post, Browse General Library, Edit Profile, and Edit Group. 
