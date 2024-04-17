@@ -15,3 +15,5 @@ https://docs.google.com/document/d/1IJ-cV1o2Ka36fiWwwgnNiymw2SvC3ndocS-qIBZWNsw/
 | 2/4/2024 | Week 6 | Domain Model, Use Case Model |
 | 5/4/2024 | Week 6 | System Sequence Diagrams |
 | 16/4/2024 | Week 8 | Domain Model 2.0, Use Case Model 2.0 |
+
+just type it
