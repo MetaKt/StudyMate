@@ -71,9 +71,9 @@ In this chapter, we will elucidate the architectural components, data flow mecha
 Our approach to system design is rooted in modularity, extensibility, and maintainability, ensuring that StudyMate can adapt to evolving educational paradigms and technological advancements. Through comprehensive architectural diagrams, interface specifications, and design patterns, we aim to provide below a comprehensive roadmap for stakeholders involved in the development and utilization of StudyMate.
 
 ## 4.1 Domain model
-<p align = center> <![StudyMate_Domain Model](https://github.com/MetaKt/StudyMate/assets/91473477/f72e3cd6-b504-4b6a-9892-8c3ba020231a)> </p>
+![StudyMate_Domain Model](https://github.com/MetaKt/StudyMate/assets/91473477/f72e3cd6-b504-4b6a-9892-8c3ba020231a)> 
 
-Figure 4.1.1 Logical Structural View: Domain Model Diagram
+<p align = "center"> Figure 4.1.1 Logical Structural View: Domain Model Diagram </p>
 
 The domain model provides an abstract, high-level overview of the key components within the StudyMate platform, illustrating how users interact with study groups, group activities, general resources, and the ranking system based on their interests. while also outlining the role and responsibilities of the system admin in managing the platform and ensuring security.
 
