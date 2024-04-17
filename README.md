@@ -16,4 +16,6 @@ https://docs.google.com/document/d/1IJ-cV1o2Ka36fiWwwgnNiymw2SvC3ndocS-qIBZWNsw/
 | 5/4/2024 | Week 6 | System Sequence Diagrams |
 | 16/4/2024 | Week 8 | Domain Model 2.0, Use Case Model 2.0 |
 
-just type it
+## Introduction
+As the landscape of education evolves, students encounter new challenges in their learning journey. The increasing complexity of academic subjects, coupled with the need for collaborative learning in today's fast-paced world, has prompted the development of StudyMate. Recognizing the difficulties students face in finding suitable study groups, sharing knowledge effectively, and fostering a sense of community, StudyMate aims to bridge these gaps. By providing an interactive platform that facilitates group study, knowledge exchange, and community building, StudyMate strives to enhance the overall learning experience for students in universities and beyond.
+In this document we will see the different software modelings and how they are modelled. Futhermore we wil look at the purpose, intended audience and scope of this document and project.
