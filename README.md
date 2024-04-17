@@ -106,8 +106,7 @@ The system admin is tasked with managing various aspects of the platform, includ
 Ensuring the security and integrity of the platform is a key responsibility of the system admin. They are responsible for monitoring content for inappropriate behaviour, taking measures to address reports from users, and implementing security protocols to safeguard the platform and its users from potential threats or breaches.
 
 ## 4.2 Use case
-![StudyMate_UseCase-UseCase_User](https://github.com/MetaKt/StudyMate/assets/131533232/bae8c4b7-b7ef-4219-9b5b-f00fd847a4da)
-
+![StudyMate_UseCase-UseCase_User](https://github.com/MetaKt/StudyMate/assets/131533232/0910c18c-4a7b-4e1b-864e-a0fcc8732c8b)
 
 <p align = "center"> Figure 4.2.1 UseCase Diagram for User </p>
 
@@ -121,10 +120,19 @@ Join Group and Create Group:
 
 Join Group is an action when users are desiring to entry other study groups apart from which they are already a member of. A list of availiable groups will be provided based on the Recommendation feature, an algorithm which will select groups or resources according to the user's interest. Users will then be able to decide to join any groups: Protected or Private Groups. Protected Groups are groups which their content can be and only visible by non-member users, giving a better image of the group community. Private Groups are groups that only group members can see through their content within the group, allowing more privacy to the group members. Upon clicking join protected group, users will from the moment become a member of the group they desire to entry, capable of all group members services. Unlike protected, before being a member of a private group, the head of the private group must first accept join group request from the user. Only the accepted request can give the user permission to entry and become a group member.
 
-Share Resources and Share Post:
-
 Post:
 
+Like Post and Share Post:
+
+Browse General Library:
+
+Upload Resources:
+
+Share Resources:
+
+Edit Profile:
+
+Edit Group:
 
 
 
