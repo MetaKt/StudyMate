@@ -92,11 +92,11 @@ Within study groups, users can engage in various activities to facilitate learni
 
 Points:
 
-The system calculates the total points accumulated by all users within a group to determine its ranking. Ranking assigns points to users according to the amount of likes given by other users to the  resources they uploaded (that depends mostly on the quality and quantity), fostering healthy competition and incentivizing active participation. 
+The system calculates the total points accumulated by all users within a group to determine its ranking. Ranking assigns points to the group of the user according to the amount of likes given by other group members to their posts or the resources they uploaded into the General Library (that depends mostly on the quality and quantity), fostering healthy competition and incentivizing active participation. 
 
 General Library Resources:
 
-The general library is a repository of resources accessible to all users who are in a study group within StudyMate. Users can access and utilize resources available in the library and contribute by uploading additional materials, thereby enriching the collective knowledge base of the platform.
+The General Library is a repository of resources accessible to all users who are in a study group within StudyMate. Users can access and utilize resources available in the library and contribute by uploading additional materials, thereby enriching the collective knowledge base of the platform.
 
 Admin:
 
@@ -105,5 +105,11 @@ The system admin is tasked with managing various aspects of the platform, includ
 Ensuring the security and integrity of the platform is a key responsibility of the system admin. They are responsible for monitoring content for inappropriate behaviour, taking measures to address reports from users, and implementing security protocols to safeguard the platform and its users from potential threats or breaches.
 
 ## 4.2 Use case
+![StudyMate_UseCase-UseCase_User](https://github.com/MetaKt/StudyMate/assets/131533232/1b66d673-afff-4e94-9680-d9dfed988a1c)
+Figure 4.2.1 UseCase Diagram for User
+
+The Use Case Diagram depicts the features an actor is capable of accessing. For our StudyMate Use Case Diagram, it is separated into two distinct diagrams for the ease of understanding. Figure 4.2.1 above is the Use Case Diagram for Users, representing all the actions a user can perform in StudyMate platform: Login, Join Group, Create Group, Share Resources, Share Post, Like Post, Post, Browse General Library, Edit Profile, and Edit Group. 
+
+
 
 ## 4.3 Sequence diagram
