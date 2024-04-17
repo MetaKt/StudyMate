@@ -15,7 +15,7 @@ https://docs.google.com/document/d/1IJ-cV1o2Ka36fiWwwgnNiymw2SvC3ndocS-qIBZWNsw/
 | 2/4/2024 | Week 6 | Domain Model, Use Case Model |
 | 5/4/2024 | Week 6 | System Sequence Diagrams |
 | 16/4/2024 | Week 8 | Domain Model 2.0, Use Case Model 2.0 |
-| 17/4/2024 | Week 8 | Document description |
+| 17/4/2024 | Week 8 | Introduction, System Design (Domain Model) |
 
 ##  1 Introduction
 As the landscape of education evolves, students encounter new challenges in their learning journey. The increasing complexity of academic subjects, coupled with the need for collaborative learning in today's fast-paced world, has prompted the development of StudyMate. Recognizing the difficulties students face in finding suitable study groups, sharing knowledge effectively, and 
