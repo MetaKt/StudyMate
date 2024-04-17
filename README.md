@@ -77,29 +77,29 @@ Our approach to system design is rooted in modularity, extensibility, and mainta
 
 The domain model provides an abstract, high-level overview of the key components within the StudyMate platform, illustrating how users interact with study groups, group activities, general resources, and the ranking system based on their interests. while also outlining the role and responsibilities of the system admin in managing the platform and ensuring security.
 
-User:
+**User:**
 
 User of StudyMate, upon creating an account or logging in, gain access to various features. They can join existing study groups or create new ones based on their interests. Within these study groups, users can engage in group activities such as leaving comments, posts, likes, and questions, participating in group chats, uploading materials, and accumulate points for ranking groups. Additionally, users have access to general resources, where they can make use of resources like images, text, files, etc., and contribute by uploading additional resources. 
 
-Interest:
+**Interest:**
 
 User's interests will help the system recommend users study groups to join and resources from the general library to explore, enhancing their overall experience on the platform.
 Study Group:
 Study groups serve as collaborative spaces for users with shared interests or academic pursuits. Users can join existing groups or create new ones, facilitating collective learning and collaboration.
 
-Group Activities:
+**Group Activities:**
 
 Within study groups, users can engage in various activities to facilitate learning and interaction. These activities include leaving comments, posts, likes, and questions, participating in group chats, and uploading educational materials to share with other groups or group members. Apart from that there's an additional activity that is the ranking of the study groups. Study groups are ranked based on the points accumulated by their contributions to the general library. 
 
-Points:
+**Points:**
 
 The system calculates the total points accumulated by all users within a group to determine its ranking. Ranking assigns points to the group of the user according to the amount of likes given by other group members to their posts or the resources they uploaded into the General Library (that depends mostly on the quality and quantity), fostering healthy competition and incentivizing active participation. 
 
-General Library Resources:
+**General Library Resources:**
 
 The General Library is a repository of resources accessible to all users who are in a study group within StudyMate. Users can access and utilize resources available in the library and contribute by uploading additional materials, thereby enriching the collective knowledge base of the platform.
 
-Admin:
+**Admin:**
 
 The system admin holds additional permissions and responsibilities compared to regular users. 
 The system admin is tasked with managing various aspects of the platform, including content moderation, group management, and user account administration(managing user profile/accounts by handling tasks such as creating, deleting, and resetting passwords). They have the authority to create, edit, and delete study groups as needed, ensuring the platform remains organized and conducive to learning.
