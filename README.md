@@ -29,10 +29,10 @@ The main purpose of this document is to provide details of the UMLs and software
 ## 1.2 Project scope
 This document aims to provide a platform where university srudents and individuals are allowed to:
 
--Explore the available study groups for joining.
--Creat or join study groups.
--After joining groups you can participate in the group discussions.
--Participate in the ranking(of study groups).
+<br>-Explore the available study groups for joining.
+<br>-Creat or join study groups.
+<br>-After joining groups you can participate in the group discussions.
+<br>-Participate in the ranking(of study groups).
 
 The website will serve as a productive hub for educational support, foster a community of learners and incentivate the learnin of users with its different activities.
 
@@ -41,10 +41,10 @@ The intended audience for this document includes:
 <br>-Project developers
 <br>-Project managers
 <br>-Project designers
--Project implementers
--Project testers
--Project stakeholders
--Documentation writers
+<br>-Project implementers
+<br>-Project testers
+<br>-Project stakeholders
+<br>-Documentation writers
 
 ## 1.4 Document overview
 
