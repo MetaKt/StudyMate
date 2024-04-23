@@ -105,22 +105,24 @@ The system admin holds additional permissions and responsibilities compared to r
 The system admin is tasked with managing various aspects of the platform, including content moderation, group management, and user account administration(managing user profile/accounts by handling tasks such as creating, deleting, and resetting passwords). They have the authority to create, edit, and delete study groups as needed, ensuring the platform remains organized and conducive to learning.
 Ensuring the security and integrity of the platform is a key responsibility of the system admin. They are responsible for monitoring content for inappropriate behaviour, taking measures to address reports from users, and implementing security protocols to safeguard the platform and its users from potential threats or breaches.
 
-## 4.2 Use case
+## 4.2 Use case Diagrams
 ![StudyMate_UseCase-UseCase_User](https://github.com/MetaKt/StudyMate/assets/131533232/0910c18c-4a7b-4e1b-864e-a0fcc8732c8b)
 
 <p align = "center"> Figure 4.2.1 UseCase Diagram for User </p>
 
-The Use Case Diagram depicts the features an actor is capable of accessing. For our StudyMate Use Case Diagram, it is separated into two distinct diagrams for the ease of comprehension. Figure 4.2.1 above is the Use Case Diagram for Users, representing all the actions a user can perform in StudyMate platform: Sign Up, Login, Join Group, Create Group, Post, Like Post, Share Post, Browse General Library, Uplaod Resoucrs, Share Resources, Edit Profile, and Edit Group. 
+The Use Case Diagram depicts the features an actor is capable of accessing. For our StudyMate Use Case Diagram, it is separated into two distinct diagrams for the ease of comprehension. Figure 4.2.1 above is the Use Case Diagram for Users, representing all the actions a user can perform in StudyMate platform: Sign Up, Login, Join Group, Join Private Group, Create Group, Post, Like Post, Share Post, Browse General Library, Uplaod Resources, Share Resources, Edit Profile, and Edit Group. 
 
 **Sign Up and Login:**
 
 Before accessing into the StudyMate platform, every users must verify themselves. First time user must first signup to the platform, creating their account with unique username, sophisticate password, and interesting bio description. Then, they will have to verify themselves through our authentication methods and select to join at least one interested study group. For users who already have an account, they will need to login with their respective username and password. Only when given with the correct username and password, the user can access to the platform and services.
 
-**Join Group and Create Group:**
+**Join Group, Join Private Group and Create Group:**
 
-Join Group is an action when users are desiring to entry other study groups apart from which they are already a member of. A list of availiable groups will be provided based on the Recommendation feature, an algorithm which will select groups or resources according to the user's interest. Users will then be able to decide to join any groups: Protected or Private Groups. Protected Groups are groups which their content can be and only visible by non-member users, giving a better image of the group community. Private Groups are groups that only group members can see through their content within the group, allowing more privacy to the group members. Upon clicking join protected group, users will from the moment become a member of the group they desire to entry, capable of all group members services. Unlike protected, before being a member of a private group, the head of the private group must first accept join group request from the user. Only the accepted request can give the user permission to entry and become a group member.
+Join Group is an action when users are desiring to entry other study groups apart from which they are already a member of. A list of availiable groups will be provided based on the Recommendation feature, an algorithm which will select groups or resources according to the user's interest. Users will then be able to decide to join any group types: Protected or Private Groups. Protected Groups are groups which their content can be and only visible by non-member users, giving a better image of the group community. Private Groups are groups that only group members can see through their content within the group, allowing more privacy to the group members. Upon clicking join group, users will from the moment become a member of the group they desire to entry, capable of all group members services. Unlike protected, before being a member of a private group, the head of the private group must first accept join private group request from the user. Only the accepted request can give the user permission to entry and become a group member.
 
 **Post:**
+
+StudyMate provides a space for group community to post information in the group. A Post can be text, images, videos, or file documents (**list**). Post is a place aimming to encourage communication within the group, producing an active and lively group study environment. Many benefits group members can gain advantage from posts. For example, making a real-life meet up between group members through post, sharing information related to the group's content, and discussing on a certain topic as one. 
 
 **Like Post and Share Post:**
 
@@ -133,6 +135,9 @@ Join Group is an action when users are desiring to entry other study groups apar
 **Edit Profile:**
 
 **Edit Group:**
+
+![StudyMate_UseCase-UseCase_Admin](https://github.com/MetaKt/StudyMate/assets/131533232/5c6ebfdd-5fa1-4910-afb0-d5ce1e50437a)
+<p align = "center"> Figure 4.2.1 UseCase Diagram for Admin </p>
 
 
 
