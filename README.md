@@ -147,7 +147,7 @@ StudyMate provides a space for the group community to post information in the gr
 
 The sequence diagram illustrates how objects interact in a particular scenario of a system within the StudyMate platform, illustrates how users interact with study groups, group activities, the general library, and the ranking system, and shows communication among stakeholders to provide a clear and concise depiction of the system's behavior, helping stakeholders to understand and discuss the system's functionality and requirements.
 
-**Sign Up (For User):**
+<i>**Sign Up (For User):**</i>
 <br>
 <br>
 ![StudyMate-Sign Up (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/b5505483-74e3-48c9-a435-2e263fa42a33)
