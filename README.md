@@ -16,7 +16,7 @@ https://docs.google.com/document/d/1IJ-cV1o2Ka36fiWwwgnNiymw2SvC3ndocS-qIBZWNsw/
 | 5/4/2024 | Week 6 | System Sequence Diagrams |
 | 16/4/2024 | Week 8 | Domain Model 2.0, Use Case Model 2.0 |
 | 17/4/2024 | Week 8 | Introduction, System Design (Domain Model) |
-| 28/4/2024 | Week 10 | System Diagram) |
+| 28/4/2024 | Week 10 | System Sequence Diagram |
 
 ##  1 Introduction
 As the landscape of education evolves, students encounter new challenges in their learning journey. The increasing complexity of academic subjects, coupled with the need for collaborative learning in today's fast-paced world, has prompted the development of StudyMate. Recognizing the difficulties students face in finding suitable study groups, sharing knowledge effectively, and 
@@ -143,9 +143,9 @@ StudyMate provides a space for the group community to post information in the gr
 
 
 
-## 4.3 Sequence diagram
+## 4.3 Sequence System diagram
 
-The sequence diagram illustrates how objects interact in a particular scenario of a system within the StudyMate platform, illustrates how users interact with study groups, group activities, the general library, and the ranking system, and shows communication among stakeholders to provide a clear and concise depiction of the system's behavior, helping stakeholders to understand and discuss the system's functionality and requirements.
+The System Sequence Diagram illustrates how objects interact in a particular scenario of a system within the StudyMate platform, illustrates how users interact with study groups, group activities, the general library, and the ranking system, and shows communication among stakeholders to provide a clear and concise depiction of the system's behavior, helping stakeholders to understand and discuss the system's functionality and requirements.
 
 <i>**Sign Up (For User):**</i>
 <br>
@@ -177,7 +177,7 @@ In this section, it is about showing how to join a group. When the users are int
 <br>
 <br>
 
-<i>**Join Private Group:**</i>
+<i>**Join Private Group (For User):**</i>
 <br>
 <br>
 ![StudyMate-Join Private Group (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/f4b45494-80bc-4a19-86ae-87800577d25e)
@@ -187,12 +187,32 @@ This diagram illustrates the process of how the user will be able to join a priv
 <br>
 <br>
 
-<i>**Create Group**</i>
+<i>**Create Group (For USer):**</i>
 <br>
 <br>
 ![StudyMate-Create Group (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/36be5226-8697-4fc4-90c6-7f87e2a20b01)
 <p align = "left"> Figure 4.3.4 System Diagram Create Group (For User) </p>
 <br>
 This diagram depicts the topic of how the user can create a group. Firstly, the user must click the “Create group” button then set up the group name and group description and send it to the system. Later on, the system will update the data of a new group will be created and the user’s new group will show the user that his or her new group is already created.
+<br>
+<br>
+
+<i>**Browse General Library (For User):**</i>
+<br>
+<br>
+![StudyMate-Browse General Library (For Users))](https://github.com/MetaKt/StudyMate/assets/147230981/7d6c479a-f395-481c-b048-1f1c28d2c3a6)
+<p align = "left"> Figure 4.3.5 System Diagram Browse General Library (For User) </p>
+<br>
+This diagram illustrates the concept of “Browse General Library”. So if the users would like to browse resources in the General Library, they must click the button to enter General Library, and the system will bring them to the library and show resources.
+<br>
+<br>
+
+<i>**Share Resources From General Library (For User1):**</i>
+<br>
+<br>
+![StudyMate-Share Resource from General Library (For User)](https://github.com/MetaKt/StudyMate/assets/147230981/3a3bd72d-3d24-4cbc-8d3c-585364154ed0)
+<p align = "left"> Figure 4.3.5 System Diagram Share Resources From General Library (For User) </p>
+<br>
+The diagram above shows the concept of how the users can share resources from the General Library. This is a method of how the users can share resources from the General Library to the groups. First of all, the users should enter General Library and the system will show resources in General Libray to the users. After that, the users click share resources and the system will request the destination to share resources. After the user provides the destination already, the system will send the information to the group and show the users that the resource has been shared successfully.
 <br>
 <br>
