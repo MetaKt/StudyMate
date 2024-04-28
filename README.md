@@ -3,7 +3,7 @@ This is a project made by Wuhan University International Students of the year 20
 The project's objective is required to complete a requirement document for a system introduced by the students. 
 
 ## What is StudyMate?
-StudyMate is an exceptional interactive website designed exclusively for individuals seeking to engage in group study. With StudyMate, you can easily connect with like-minded individuals by joining or creating study groups, participating or share resources in the
+StudyMate is an exceptional interactive website designed exclusively for individuals seeking to engage in group study. With StudyMate, you can easily connect with like-minded individuals by joining or creating study groups, participating or sharing resources in the
 post sessions, as well as engage in the General Library of StudyMate, and even post-meeting details to ensure smooth coordination with your study partners.
 
 ## Requirement Document Draft File
@@ -146,7 +146,7 @@ StudyMate provides a space for the group community to post information in the gr
 
 The sequence diagram illustrates how objects interact in a particular scenario of a system within the StudyMate platform, illustrates how users interact with study groups, group activities, the general library, and the ranking system, and shows communication among stakeholders to provide a clear and concise depiction of the system's behavior, helping stakeholders to understand and discuss the system's functionality and requirements.
 
-**Log In (For User)
+**Log In (For User)**
 ![StudyMate-Log In (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/5530f62b-42ad-4d44-bab5-f32072b8586d)
 <p align = "center"> Figure 4.3.1 System Diagram Log In (For User) </p>
 
