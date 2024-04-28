@@ -148,6 +148,7 @@ The sequence diagram illustrates how objects interact in a particular scenario o
 
 **Log In (For User)**
 <br>
+<br>
 ![StudyMate-Log In (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/5530f62b-42ad-4d44-bab5-f32072b8586d)
 <p align = "left"> Figure 4.3.1 System Diagram Log In (For User) </p>
 
