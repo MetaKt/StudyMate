@@ -207,12 +207,22 @@ This diagram illustrates the concept of “Browse General Library”. So if the 
 <br>
 <br>
 
-<i>**Share Resources From General Library (For User1):**</i>
+<i>**Share Resources From General Library (For User):**</i>
 <br>
 <br>
 ![StudyMate-Share Resource from General Library (For User)](https://github.com/MetaKt/StudyMate/assets/147230981/3a3bd72d-3d24-4cbc-8d3c-585364154ed0)
 <p align = "left"> Figure 4.3.5 System Diagram Share Resources From General Library (For User) </p>
 <br>
 The diagram above shows the concept of how the users can share resources from the General Library. This is a method of how the users can share resources from the General Library to the groups. First of all, the users should enter General Library and the system will show resources in General Libray to the users. After that, the users click share resources and the system will request the destination to share resources. After the user provides the destination already, the system will send the information to the group and show the users that the resource has been shared successfully.
+<br>
+<br>
+
+<i>**Share Post (For User):**</i>
+<br>
+<br>
+![StudyMate-Share Post (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/006701aa-3355-4b02-8e04-a614da26a481)
+<p align = "left"> Figure 4.3.5 System Diagram Share Post (For User) </p>
+<br>
+The diagram above shows the concept of how users can share posts. This is a method of how the users can share posts from themselves to the General Library. First of all, the users should enter General Library and the system will show resources in General Libray to the users. After that, the users click share post  and the system will request posting resources. After the user provides the resources already, the system will update the information to show the users that the resource has been posted successfully.
 <br>
 <br>
