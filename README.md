@@ -324,7 +324,7 @@ This diagram illustrates how the admin can manage users and groups in the applic
 <br>
 ![StudyMate-Come help (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/cb9ad22b-ceb9-4d90-8276-2f111337ec40)
 
-<p align = "left"> Figure 4.3.17 System Diagram Come Help (For Admin) </p>
+<p align = "left"> Figure 4.3.18 System Diagram Come Help (For Admin) </p>
 <br>
 This diagram depicts how the admin can come and help the users. Firstly, the users must click the help button which will send a signal to the system, and the system will report to the admin that there is a user who needs help. So, the admin can go and fix the problem of the users.
 <br>
@@ -334,7 +334,7 @@ This diagram depicts how the admin can come and help the users. Firstly, the use
 <br>
 <br>
 ![StudyMate-Detect Inappropriate Behavior (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/5d0a9f0b-957b-4aa7-ba6f-7fedc1b46d6d)
-<p align = "left"> Figure 4.3.18 System Diagram Detect Inappropriate Behavior (For Admin) </p>
+<p align = "left"> Figure 4.3.19 System Diagram Detect Inappropriate Behavior (For Admin) </p>
 <br>
 This diagram shows how the admin can take action with inappropriate behavior. First of all, when the users see any inappropriate behavior, they can click report and the signal will be sent to the system. After that, the system will tell the admin that there is suspicious behavior and the admin can take action with that suspicious behavior.
 <br>
