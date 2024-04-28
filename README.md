@@ -157,7 +157,7 @@ This part shows the sign-up process, as soon as the new users arrived at the app
 <br>
 <br>
 
-**Log In (For User):**
+<i>**Log In (For User):**</i>
 <br>
 <br>
 ![StudyMate-Log In (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/f028eaf0-eeb3-4eb5-94fb-bc27c8ae41e9)
@@ -167,7 +167,7 @@ This part shows the sign-up process, as soon as the new users arrived at the app
 <br>
 <br>
 
-**Join Group (For User):**
+<i>**Join Group (For User):**</i>
 <br>
 <br>
 ![StudyMate-Join Group (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/8d40e18d-04b9-430a-9dda-4de4870ee3e1)
@@ -175,5 +175,12 @@ This part shows the sign-up process, as soon as the new users arrived at the app
 In this section, it is about showing how to join a group. When the users are interested in any groups, they can just kindly click on the join group button, the system will automatically update the data and report the join group successfully.
 <br>
 <br>
+
+<i>**Join Private Group:**</i>
+<br>
+<br>
+![StudyMate-Join Private Group (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/f4b45494-80bc-4a19-86ae-87800577d25e)
+<p align = "left"> Figure 4.3.4 System Diagram Join Private Group (For User) </p>
+This diagram illustrates the process of how the user will be able to join a private group. Firstly, the user shall click the join group button which will send the signal to the system and the system will report the joining request to the group leader. Then the next process is the process of “Request Consideration”. If the group leader accepts the new user, the leader will click accept a request and the system will update data and send the join group successfully back to the user. However, if the group host clicks decline, the system will report the join group failure to the user.
 
 
