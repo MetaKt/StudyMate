@@ -143,9 +143,11 @@ StudyMate provides a space for the group community to post information in the gr
 
 
 
-## 4.3 Sequence System diagram
+## 4.3 System Sequence Diagram
 
 The System Sequence Diagram illustrates how objects interact in a particular scenario of a system within the StudyMate platform, illustrates how users interact with study groups, group activities, the general library, and the ranking system, and shows communication among stakeholders to provide a clear and concise depiction of the system's behavior, helping stakeholders to understand and discuss the system's functionality and requirements.
+
+In our project, we will separate the System Sequence Diagram into two sections including the user and the admin section.
 
 <i>**Sign Up (For User):**</i>
 <br>
@@ -191,7 +193,7 @@ This diagram illustrates the process of how the user will be able to join a priv
 <br>
 <br>
 ![StudyMate-Create Group (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/36be5226-8697-4fc4-90c6-7f87e2a20b01)
-<p align = "left"> Figure 4.3.4 System Diagram Create Group (For User) </p>
+<p align = "left"> Figure 4.3.5 System Diagram Create Group (For User) </p>
 <br>
 This diagram depicts the topic of how the user can create a group. Firstly, the user must click the “Create group” button then set up the group name and group description and send it to the system. Later on, the system will update the data of a new group will be created and the user’s new group will show the user that his or her new group is already created.
 <br>
@@ -201,7 +203,7 @@ This diagram depicts the topic of how the user can create a group. Firstly, the 
 <br>
 <br>
 ![StudyMate-Browse General Library (For Users))](https://github.com/MetaKt/StudyMate/assets/147230981/7d6c479a-f395-481c-b048-1f1c28d2c3a6)
-<p align = "left"> Figure 4.3.5 System Diagram Browse General Library (For User) </p>
+<p align = "left"> Figure 4.3.6 System Diagram Browse General Library (For User) </p>
 <br>
 This diagram illustrates the concept of “Browse General Library”. So if the users would like to browse resources in the General Library, they must click the button to enter General Library, and the system will bring them to the library and show resources.
 <br>
@@ -211,9 +213,9 @@ This diagram illustrates the concept of “Browse General Library”. So if the 
 <br>
 <br>
 ![StudyMate-Share Resource from General Library (For User)](https://github.com/MetaKt/StudyMate/assets/147230981/3a3bd72d-3d24-4cbc-8d3c-585364154ed0)
-<p align = "left"> Figure 4.3.5 System Diagram Share Resources From General Library (For User) </p>
+<p align = "left"> Figure 4.3.7 System Diagram Share Resources From General Library (For User) </p>
 <br>
-The diagram above shows the concept of how the users can share resources from the General Library. This is a method of how the users can share resources from the General Library to the groups. First of all, the users should enter General Library and the system will show resources in General Libray to the users. After that, the users click share resources and the system will request the destination to share resources. After the user provides the destination already, the system will send the information to the group and show the users that the resource has been shared successfully.
+The diagram above shows the concept of how the users can share resources from the General Library. This is a method of how the users can share resources from the General Library to the groups. First of all, the users should enter General Library and the system will show resources in General Libray to the users. After that, the users click share resources and the system will request the destination to share resources. After the user provides the destination, the system will send the information to the group and show the users that the resource has been shared successfully.
 <br>
 <br>
 
@@ -221,8 +223,119 @@ The diagram above shows the concept of how the users can share resources from th
 <br>
 <br>
 ![StudyMate-Share Post (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/006701aa-3355-4b02-8e04-a614da26a481)
-<p align = "left"> Figure 4.3.5 System Diagram Share Post (For User) </p>
+<p align = "left"> Figure 4.3.8 System Diagram Share Post (For User) </p>
 <br>
 The diagram above shows the concept of how users can share posts. This is a method of how the users can share posts from themselves to the General Library. First of all, the users should enter General Library and the system will show resources in General Libray to the users. After that, the users click share post  and the system will request posting resources. After the user provides the resources already, the system will update the information to show the users that the resource has been posted successfully.
+<br>
+<br>
+
+<i>**Like Post (For User):**</i>
+<br>
+<br>
+![StudyMate-Like Post (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/8b5d60af-e5c7-4d34-9375-115c84712ff0)
+<p align = "left"> Figure 4.3.9 System Diagram Like Post (For User) </p>
+<br>
+In this diagram, it provides the concept of liking posts. As soon as the users enter a group and see the post that they like, they will click the like button and the system will update the data. Then the system will update like to the group and the group will show like to the users.
+<br>
+<br>
+
+<i>**Post In Group (For User):**</i>
+<br>
+<br>
+![StudyMate-Post in Group  (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/f22dcaae-c1d0-4104-ab3e-dfe626580b47)
+<p align = "left"> Figure 4.3.10 System Diagram Post In Group (For User) </p>
+<br>
+In this diagram, it shows the process of how the users will post in a group. Firstly, the users must enter the group and then click the “Create post” button. Later on, the system will ask the users to provide resources. After the users provide resources, the system will update the data and show posts in the gro
+<br>
+<br>
+
+<i>**Edit Profile (For User):**</i>
+<br>
+<br>
+![StudyMate-Edit Profile (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/fa46fd68-ca8c-4120-8bc4-fd4e8f3468c4)
+<p align = "left"> Figure 4.3.11 System Diagram Edit Profile (For User) </p>
+<br>
+This diagram reveals how to edit profile information, the users must go to their profile page after that the system sends back the requested information and shows information to the users. Then the users click the edit profile button and can start editing their profile information. After finishing the system will update the data send new profile information to the profile page and show it to the users.
+<br>
+<br>
+
+<i>**Edit Group (For User):**</i>
+<br>
+<br>
+![StudyMate-Edit Group (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/b1f8351d-ee11-4735-a422-faf16270f707)
+<p align = "left"> Figure 4.3.12 System Diagram Edit Group (For User) </p>
+<br>
+This diagram reveals how to edit the group's information, the users must go to the group page and the system will send back the group's information. After that, the user can click the edit group information button. However, the person who could edit the group's information must be the group's leader only, therefore, the system needs to verify whether the user is the leader by sending verification. If the user passes the verification, the system will allow them to update the information, update new information, and show new group information to the user. If the user does not passes the verification, the system will report verification failure to the user.
+<br>
+<br>
+
+<i>**Check Post (For Admin):**</i>
+<br>
+<br>
+![StudyMate-Check Post (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/15508c06-f050-40ad-b675-b4cc6e0d491c)
+<p align = "left"> Figure 4.3.13 System Diagram Check Post (For Admin) </p>
+<br>
+This diagram shows the process of checking the posting of admin. Firstly, the admin will request a post from the system to check then the system will show the requested posts to the admin and the admin can check the post..
+<br>
+<br>
+
+<i>**Check Post (For Admin):**</i>
+<br>
+<br>
+![StudyMate-Check Post (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/15508c06-f050-40ad-b675-b4cc6e0d491c)
+<p align = "left"> Figure 4.3.14 System Diagram Check Post (For Admin) </p>
+<br>
+This diagram shows the process of checking the posting of admin. Firstly, the admin will browse posts in the application to check then the system will show the posts to the admin. Later on, the admin can check the post.
+<br>
+<br>
+
+<i>**Check Library Resources (For Admin):**</i>
+<br>
+<br>
+![StudyMate-Check Library Resouces  (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/fb8adb8c-23d1-4c7a-96b0-77b9aafd7241)
+<p align = "left"> Figure 4.3.15 System Diagram Check Post (For Admin) </p>
+<br>
+This diagram shows the process of checking the posting of admin. Firstly, the admin will browse resources in the general Library to check then the system will show the posts to the admin. Later on, the admin can check the post.
+<br>
+<br>
+
+<i>**Check Library Resources (For Admin):**</i>
+<br>
+<br>
+![StudyMate-Check Library Resouces  (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/fb8adb8c-23d1-4c7a-96b0-77b9aafd7241)
+<p align = "left"> Figure 4.3.16 System Diagram Check Library Resources (For Admin) </p>
+<br>
+This diagram shows the process of checking the posting of admin. Firstly, the admin will browse resources in the general Library to check then the system will show the resources to the admin. Later on, the admin can check the resources in the General Library.
+<br>
+<br>
+
+<i>**User / Group Management (For Admin):**</i>
+<br>
+<br>
+![StudyMate-Check Library Resouces  (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/fb8adb8c-23d1-4c7a-96b0-77b9aafd7241)
+<p align = "left"> Figure 4.3.17 System Diagram User / Group Management (For Admin) </p>
+<br>
+This diagram illustrates how the admin can manage users and groups in the application. First, the admin will browse the user’s or group’s information and the system will show them to the admin. After that, the admin will check the user’s and group’s information.
+<br>
+<br>
+
+<i>**Come Help (For Admin):**</i>
+<br>
+<br>
+![StudyMate-Come help (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/cb9ad22b-ceb9-4d90-8276-2f111337ec40)
+
+<p align = "left"> Figure 4.3.17 System Diagram Come Help (For Admin) </p>
+<br>
+This diagram depicts how the admin can come and help the users. Firstly, the users must click the help button which will send a signal to the system, and the system will report to the admin that there is a user who needs help. So, the admin can go and fix the problem of the users.
+<br>
+<br>
+
+<i>**Detect Inappropriate Behavior (For Admin):**</i>
+<br>
+<br>
+![StudyMate-Detect Inappropriate Behavior (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/5d0a9f0b-957b-4aa7-ba6f-7fedc1b46d6d)
+<p align = "left"> Figure 4.3.18 System Diagram Detect Inappropriate Behavior (For Admin) </p>
+<br>
+This diagram shows how the admin can take action with inappropriate behavior. First of all, when the users see any inappropriate behavior, they can click report and the signal will be sent to the system. After that, the system will tell the admin that there is suspicious behavior and the admin can take action with that suspicious behavior.
 <br>
 <br>
