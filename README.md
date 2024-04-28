@@ -16,6 +16,7 @@ https://docs.google.com/document/d/1IJ-cV1o2Ka36fiWwwgnNiymw2SvC3ndocS-qIBZWNsw/
 | 5/4/2024 | Week 6 | System Sequence Diagrams |
 | 16/4/2024 | Week 8 | Domain Model 2.0, Use Case Model 2.0 |
 | 17/4/2024 | Week 8 | Introduction, System Design (Domain Model) |
+| 28/4/2024 | Week 10 | System Diagram) |
 
 ##  1 Introduction
 As the landscape of education evolves, students encounter new challenges in their learning journey. The increasing complexity of academic subjects, coupled with the need for collaborative learning in today's fast-paced world, has prompted the development of StudyMate. Recognizing the difficulties students face in finding suitable study groups, sharing knowledge effectively, and 
@@ -165,3 +166,14 @@ This part shows the sign-up process, as soon as the new users arrived at the app
 This part shows the sign-up process, as soon as the new users arrived at the application, the system required them to sign up in order to create an account. When they click “Sign Up”, the system will request the information and the users need to submit the required information. Later on, the system needs to verify that the users are real humans by sending a CAPTCHA test, and after completing it, it will report the account created successfully and bring it to another page to let the users choose groups and show posting resources.
 <br>
 <br>
+
+**Join Group (For User):**
+<br>
+<br>
+![StudyMate-Join Group (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/8d40e18d-04b9-430a-9dda-4de4870ee3e1)
+<p align = "left"> Figure 4.3.3 System Diagram Join Group (For User) </p>
+In this section, it is about showing how to join a group. When the users are interested in any groups, they can just kindly click on the join group button, the system will automatically update the data and report the join group successfully.
+<br>
+<br>
+
+
