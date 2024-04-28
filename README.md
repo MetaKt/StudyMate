@@ -151,4 +151,6 @@ The sequence diagram illustrates how objects interact in a particular scenario o
 <br>
 ![StudyMate-Log In (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/5530f62b-42ad-4d44-bab5-f32072b8586d)
 <p align = "left"> Figure 4.3.1 System Diagram Log In (For User) </p>
+<br>
+This diagram illustrates the login process, if the users already have an account, they can log in to the system by clicking the “Log In” button and the system will request verification from the users and users need to submit it. If the users provide the information, the system will report logging in successfully and bring it to another page to let the users choose groups and show posting resources.
 
