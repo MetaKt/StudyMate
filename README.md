@@ -146,19 +146,22 @@ StudyMate provides a space for the group community to post information in the gr
 
 The sequence diagram illustrates how objects interact in a particular scenario of a system within the StudyMate platform, illustrates how users interact with study groups, group activities, the general library, and the ranking system, and shows communication among stakeholders to provide a clear and concise depiction of the system's behavior, helping stakeholders to understand and discuss the system's functionality and requirements.
 
-**Sign Up (For User)**
+**Sign Up (For User):**
 <br>
 <br>
 ![StudyMate-Sign Up (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/b5505483-74e3-48c9-a435-2e263fa42a33)
 <p align = "left"> Figure 4.3.1 System Diagram Sign Up (For User) </p>
 <br>
 This part shows the sign-up process, as soon as the new users arrived at the application, the system required them to sign up in order to create an account. When they click “Sign Up”, the system will request the information and the users need to submit the required information. Later on, the system needs to verify that the users are real humans by sending a CAPTCHA test, and after completing it, it will report the account created successfully and bring it to another page to let the users choose groups and show posting resources.
-
-**Log In (For User)**
 <br>
 <br>
 
-<p align = "left"> Figure 4.3.1 System Diagram Log In (For User) </p>
+**Log In (For User):**
 <br>
-This diagram illustrates the login process, if the users already have an account, they can log in to the system by clicking the “Log In” button and the system will request verification from the users and users need to submit it. If the users provide the information, the system will report logging in successfully and bring it to another page to let the users choose groups and show posting resources.
-
+<br>
+![StudyMate-Log In (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/f028eaf0-eeb3-4eb5-94fb-bc27c8ae41e9)
+<p align = "left"> Figure 4.3.2 System Diagram Log In (For User) </p>
+<br>
+This part shows the sign-up process, as soon as the new users arrived at the application, the system required them to sign up in order to create an account. When they click “Sign Up”, the system will request the information and the users need to submit the required information. Later on, the system needs to verify that the users are real humans by sending a CAPTCHA test, and after completing it, it will report the account created successfully and bring it to another page to let the users choose groups and show posting resources.
+<br>
+<br>
