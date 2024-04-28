@@ -172,6 +172,7 @@ This part shows the sign-up process, as soon as the new users arrived at the app
 <br>
 ![StudyMate-Join Group (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/8d40e18d-04b9-430a-9dda-4de4870ee3e1)
 <p align = "left"> Figure 4.3.3 System Diagram Join Group (For User) </p>
+<br>
 In this section, it is about showing how to join a group. When the users are interested in any groups, they can just kindly click on the join group button, the system will automatically update the data and report the join group successfully.
 <br>
 <br>
@@ -181,6 +182,17 @@ In this section, it is about showing how to join a group. When the users are int
 <br>
 ![StudyMate-Join Private Group (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/f4b45494-80bc-4a19-86ae-87800577d25e)
 <p align = "left"> Figure 4.3.4 System Diagram Join Private Group (For User) </p>
+<br>
 This diagram illustrates the process of how the user will be able to join a private group. Firstly, the user shall click the join group button which will send the signal to the system and the system will report the joining request to the group leader. Then the next process is the process of “Request Consideration”. If the group leader accepts the new user, the leader will click accept a request and the system will update data and send the join group successfully back to the user. However, if the group host clicks decline, the system will report the join group failure to the user.
+<br>
+<br>
 
-
+<i>**Create Group**</i>
+<br>
+<br>
+![StudyMate-Create Group (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/36be5226-8697-4fc4-90c6-7f87e2a20b01)
+<p align = "left"> Figure 4.3.4 System Diagram Create Group (For User) </p>
+<br>
+This diagram depicts the topic of how the user can create a group. Firstly, the user must click the “Create group” button then set up the group name and group description and send it to the system. Later on, the system will update the data of a new group will be created and the user’s new group will show the user that his or her new group is already created.
+<br>
+<br>
