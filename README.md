@@ -127,19 +127,37 @@ StudyMate provides a space for the group community to post information in the gr
 
 **Like Post and Share Post:**
 
+Within a group, there will appear posts provided by the group members. When a user who is one of the group members see a post, he/she can like the post to participate in encouraging group study. Liking a post will also be counted as one of the factors to increase the group points for Ranking System, leading to more group exposure and reputation.
+
+Apart from liking, a user who is one of the group members can also share the post to another group he/she is currently a part of as well. This will create more interactions, not just within one group, but as well as other groups with the same interest and goal.
+
+Our aim is to encourage and increase the capability of group study to its finest. Having these two features will help us in achieving the ideal community.
+
+
 **Browse General Library:**
+
+General Library is our system core feature. It is a huge library where every user can access to it services through any study group. This library provides a common and general ground for all the groups with all interests to showcase and share their resources to the StudyMate community. Likewise library in real life, not only you can browse and research for resources corresponding to your interests, a user can request to add their own outer resource into the library, and can share their interested resources to the groups as well. Resources in the General Library can be in any form of information as long as it is verified and informative for our community.
 
 **Upload Resources:**
 
+Continuing from the above paragraph, a user is capability of giving their own resource of information into the General Library. Once a user provided their own resource, it will then first send to our administrator to check the content for verification and security. The requested-to-upload resource will only be appear in the General Library after it has been checked by the administrator. 
+
 **Share Resources:**
+
+As mentioned previously, in the General Library, a resource can be shared to other groups. This provides a way to share information to the group study and promote more research within the study group.
 
 **Edit Profile:**
 
+A user must provide their information and descriptions upon their sign up stage. However, our system is not limited to only that. A user is free to change their information in their profile according to their satisfaction and desire, as long as it is not offending to other users in the community.
+
 **Edit Group:**
+
+Same as User Profile, a group name and description can be changed according to the group members' satisfaction and desire, as long as it is not offending to other users in the community. However, only the group leader is capable of doing so.
 
 ![StudyMate_UseCase-UseCase_Admin](https://github.com/MetaKt/StudyMate/assets/131533232/5c6ebfdd-5fa1-4910-afb0-d5ce1e50437a)
 <p align = "center"> Figure 4.2.1 UseCase Diagram for Admin </p>
 
+:::::::::::::
 
 
 
