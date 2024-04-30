@@ -107,7 +107,7 @@ The system admin is tasked with managing various aspects of the platform, includ
 Ensuring the security and integrity of the platform is a key responsibility of the system admin. They are responsible for monitoring content for inappropriate behavior, taking measures to address reports from users, and implementing security protocols to safeguard the platform and its users from potential threats or breaches.
 
 ## 4.2 Use case Diagrams
-![StudyMate_UseCase-UseCase_User](https://github.com/MetaKt/StudyMate/assets/131533232/0910c18c-4a7b-4e1b-864e-a0fcc8732c8b)
+![StudyMate_UseCase-UseCase_User](https://github.com/MetaKt/StudyMate/assets/131533232/7601017b-90b1-4da0-aca8-9d008ffc86b7)
 
 <p align = "center"> Figure 4.2.1 UseCase Diagram for User </p>
 
