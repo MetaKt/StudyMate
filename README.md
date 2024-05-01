@@ -157,7 +157,31 @@ Same as User Profile, a group name and description can be changed according to t
 ![StudyMate_UseCase-UseCase_Admin](https://github.com/MetaKt/StudyMate/assets/131533232/5c6ebfdd-5fa1-4910-afb0-d5ce1e50437a)
 <p align = "center"> Figure 4.2.1 UseCase Diagram for Admin </p>
 
-:::::::::::::
+The Diagram above, Figure 4.2.1, is the Use Case Diagram for Administrator, representing all the actions an admin can perform in the StudyMate platform: Check Profile, Check Post, Check Library Resources, User/Group Management, Detect Inappropriate Behaviour, Click Help, and Send Report.
+
+**Check Profile**
+
+An administrator can run through each user's profile to check their information for safety and security concerns, keeping a nice, welcoming, and warm community that will encourage group study further more.
+
+**Check Post**
+
+Same as Check Profile, posts within the group must also be supervised by the administrator. Detecting threats, harmful, inappropriate, violence, and false information is a duty of the administrator.
+
+**Check Library Resources**
+Another important feature of our platform is the General Library, where the information given there must be correct and legitimate. Before a resource provided by a user appears on the General Library, it must be checked thoroughly by the administrator. The administrator must check the content, wordings, and other legitimate requirements, in order to prevent copyright, crimes, and false information.
+
+**User/Group Management**
+
+The administrator have the full ability to move/kick any users from the groups/platform, depending on the seriousness of the case. This will help maintaining a peaceful environment for focusing on group study encouragment.
+
+**Detect Inappropriate Behaviour**
+
+Another duty for the administrator is to detect inappropriate behaviours in the platform. Then, the administrator can take actions on it depending on the seriousness of the case. Moreover, when a user send a report, the administrator must also come to detect inappropriate behaviour and verify that the accussion in a user report is true and take actions on it.
+
+**Click Help**
+
+**Send Report**
+
 
 
 
