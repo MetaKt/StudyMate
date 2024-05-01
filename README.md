@@ -176,12 +176,15 @@ The administrator have the full ability to move/kick any users from the groups/p
 
 **Detect Inappropriate Behaviour**
 
-Another duty for the administrator is to detect inappropriate behaviours in the platform. Then, the administrator can take actions on it depending on the seriousness of the case. Moreover, when a user send a report, the administrator must also come to detect inappropriate behaviour and verify that the accussion in a user report is true and take actions on it.
+Another duty for the administrator is to detect inappropriate behaviours in the platform. Then, the administrator can take actions on it depending on the seriousness of the case. Moreover, when a user send a report, the administrator must also come to detect inappropriate behaviour and verify that the accussion from user report is true and take actions on it.
 
 **Click Help**
 
+In case of any query from the user of our platform, a user can use help function to call for help from the administrator. This use case is special because it connects both the users and administrator, as these two actors can be contributed in this function. When a user click help, this will notify the administrator, and they will acknowledge about the situation.
+
 **Send Report**
 
+This use case is used by the user. It is also an extend from the Detect Inappropriate Behaviour use case. When a user spot a suspicious behaviour that may lead to the unsafety of the community, they can send report to the administrator for further inspection. Therefore, this use case is linked with the Detect Inappropriate Behaviour use case. 
 
 
 
