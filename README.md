@@ -17,6 +17,7 @@ https://docs.google.com/document/d/1IJ-cV1o2Ka36fiWwwgnNiymw2SvC3ndocS-qIBZWNsw/
 | 16/4/2024 | Week 8 | Domain Model 2.0, Use Case Model 2.0 |
 | 17/4/2024 | Week 8 | Introduction, System Design (Domain Model) |
 | 28/4/2024 | Week 10 | System Sequence Diagram |
+| 7/5/2024 | Week 11| Package Diagram |
 
 ##  1 Introduction
 As the landscape of education evolves, students encounter new challenges in their learning journey. The increasing complexity of academic subjects, coupled with the need for collaborative learning in today's fast-paced world, has prompted the development of StudyMate. Recognizing the difficulties students face in finding suitable study groups, sharing knowledge effectively, and 
@@ -386,3 +387,5 @@ This diagram shows how the admin can take action with inappropriate behavior. Fi
 <br>
 
 ## Package Diagram
+
+A package diagram is a type of structural diagram in the Unified Modeling Language (UML) used to depict the organization and dependencies between packages or namespaces in a system. Moreover, it is also a valuable tool for visualizing and organizing the structure of a software system, facilitating communication among stakeholders, and supporting software development activities such as design, implementation, and maintenance.
