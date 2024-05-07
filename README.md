@@ -90,7 +90,7 @@ Study groups serve as collaborative spaces for users with shared interests or ac
 
 **Group Activities:**
 
-Within study groups, users can engage in various activities to facilitate learning and interaction. These activities include leaving comments, posts, likes, and questions, participating in group chats, and uploading educational materials to share with other groups or group members. Apart from that, there's an additional activity that is the ranking of the study groups. Study groups are ranked based on the points accumulated by their contributions to the general library. 
+Within study groups, users can engage in various activities to facilitate learning and interaction. These activities include leaving comments, posts, likes, and questions, participating in group chats, and uploading educational materials to share with other groups or group members. Apart from that, there's an additional activity which is the ranking of the study groups. Study groups are ranked based on the points accumulated by their contributions to the general library. 
 
 **Points:**
 
@@ -115,11 +115,11 @@ The Use Case Diagram depicts the features an actor is capable of accessing. For 
 
 **Sign Up and Login:**
 
-Before accessing the StudyMate platform, every user must verify themselves. First time user must first signup to the platform, creating their account with a unique username, sophisticated password, and interesting bio description. Then, they will have to verify themselves through our authentication methods and select to join at least one interested study group. For users who already have an account, they will need to login with their respective username and password. Only when given with the correct username and password, the user can access to the platform and services.
+Before accessing the StudyMate platform, every user must verify themselves. First-time user must first sign up to the platform, creating their account with a unique username, sophisticated password, and interesting bio description. Then, they will have to verify themselves through our authentication methods and select to join at least one interested study group. For users who already have an account, they will need to log in with their respective usernames and password. Only when given the correct username and password, the user can access the platform and services.
 
 **Join Group, Join Private Group and Create Group:**
 
-Join Group is an action when users are desiring to entry other study groups apart from which they are already a member of. A list of available groups will be provided based on the Recommendation feature, an algorithm that will select groups or resources according to the user's interest. Users will then be able to decide to join any group type: Protected or Private Groups. Protected Groups are groups which their content can be only visible to non-member users, giving a better image of the group community. Private Groups are groups that only group members can see through their content within the group, allowing more privacy to the group members. Upon clicking join group, users will from the moment become a member of the group they desire to enter, capable of all group members' services. Unlike protected, before being a member of a private group, the head of the private group must first accept joining private group requests from the user. Only the accepted request can give the user permission to entry and become a group member.
+Join Group is an action when users are desiring to enter other study groups apart from which they are already a member. A list of available groups will be provided based on the Recommendation feature, an algorithm that will select groups or resources according to the user's interest. Users will then be able to decide to join any group type: Protected or Private Groups. Protected Groups are groups which their content can be only visible to non-member users, giving a better image of the group community. Private Groups are groups that only group members can see through their content within the group, allowing more privacy to the group members. Upon clicking join group, users will from the moment become a member of the group they desire to enter, capable of all group members' services. Unlike protected, before being a member of a private group, the head of the private group must first accept joining private group requests from the user. Only the accepted request can give the user permission to entry and become a group member.
 
 **Post:**
 
@@ -127,37 +127,37 @@ StudyMate provides a space for the group community to post information in the gr
 
 **Like Post and Share Post:**
 
-Within a group, there will appear posts provided by the group members. When a user who is one of the group members see a post, he/she can like the post to participate in encouraging group study. Liking a post will also be counted as one of the factors to increase the group points for Ranking System, leading to more group exposure and reputation.
+Within a group, there will appear posts provided by the group members. When a user who is one of the group members sees a post, he/she can like the post to participate in encouraging group study. Liking a post will also be counted as one of the factors to increase the group points for the Ranking System, leading to more group exposure and reputation.
 
-Apart from liking, a user who is one of the group members can also share the post to another group he/she is currently a part of as well. This will create more interactions, not just within one group, but as well as other groups with the same interest and goal.
+Apart from liking, a user who is one of the group members can also share the post with another group he/she is currently a part of as well. This will create more interactions, not just within one group, but as well as other groups with the same interest and goals.
 
 Our aim is to encourage and increase the capability of group study to its finest. Having these two features will help us in achieving the ideal community.
 
 
 **Browse General Library:**
 
-General Library is our system core feature. It is a huge library where every user can access to it services through any study group. This library provides a common and general ground for all the groups with all interests to showcase and share their resources to the StudyMate community. Likewise library in real life, not only you can browse and research for resources corresponding to your interests, a user can request to add their own outer resource into the library, and can share their interested resources to the groups as well. Resources in the General Library can be in any form of information as long as it is verified and informative for our community.
+The General Library is our system's core feature. It is a huge library where every user can access to it services through any study group. This library provides a common and general ground for all the groups with all interests to showcase and share their resources with the StudyMate community. Likewise library in real life, not only you can browse and research for resources corresponding to your interests, but a user can request to add their own outer resource into the library, and can share their interested resources with the groups as well. Resources in the General Library can be in any form of information as long as it is verified and informative for our community.
 
 **Upload Resources:**
 
-Continuing from the above paragraph, a user is capability of giving their own resource of information into the General Library. Once a user provided their own resource, it will then first send to our administrator to check the content for verification and security. The requested-to-upload resource will only be appear in the General Library after it has been checked by the administrator. 
+Continuing from the above paragraph, a user is capable of giving their own resource of information to the General Library. Once a user provides their own resource, it will then first be sent to our administrator to check the content for verification and security. The requested-to-upload resource will only appear in the General Library after it has been checked by the administrator. 
 
 **Share Resources:**
 
-As mentioned previously, in the General Library, a resource can be shared to other groups. This provides a way to share information to the group study and promote more research within the study group.
+As mentioned previously, in the General Library, a resource can be shared to other groups. This provides a way to share information with the group study and promote more research within the study group.
 
 **Edit Profile:**
 
-A user must provide their information and descriptions upon their sign up stage. However, our system is not limited to only that. A user is free to change their information in their profile according to their satisfaction and desire, as long as it is not offending to other users in the community.
+A user must provide their information and descriptions upon their sign-up stage. However, our system is not limited to only that. A user is free to change the information in their profile according to their satisfaction and desire, as long as it is not offending to other users in the community.
 
 **Edit Group:**
 
-Same as User Profile, a group name and description can be changed according to the group members' satisfaction and desire, as long as it is not offending to other users in the community. However, only the group leader is capable of doing so.
+Similar to as User Profile, a group name and description can be changed according to the group members' satisfaction and desire, as long as it is not offending to other users in the community. However, only the group leader is capable of doing so.
 
 ![StudyMate_UseCase-UseCase_Admin](https://github.com/MetaKt/StudyMate/assets/131533232/5c6ebfdd-5fa1-4910-afb0-d5ce1e50437a)
 <p align = "center"> Figure 4.2.1 UseCase Diagram for Admin </p>
 
-The Diagram above, Figure 4.2.1, is the Use Case Diagram for Administrator, representing all the actions an admin can perform in the StudyMate platform: Check Profile, Check Post, Check Library Resources, User/Group Management, Detect Inappropriate Behaviour, Click Help, and Send Report.
+The Diagram above, Figure 4.2.1, is the Use Case Diagram for the Administrator, representing all the actions an admin can perform in the StudyMate platform: Check Profile, Check Post, Check Library Resources, User/Group Management, Detect Inappropriate Behaviour, Click Help, and Send Report.
 
 **Check Profile**
 
@@ -165,26 +165,26 @@ An administrator can run through each user's profile to check their information 
 
 **Check Post**
 
-Same as Check Profile, posts within the group must also be supervised by the administrator. Detecting threats, harmful, inappropriate, violence, and false information is a duty of the administrator.
+Same as Check Profile, posts within the group must also be supervised by the administrator. Detecting threats, and harmful, inappropriate, violent, and false information is the duty of the administrator.
 
 **Check Library Resources**
-Another important feature of our platform is the General Library, where the information given there must be correct and legitimate. Before a resource provided by a user appears on the General Library, it must be checked thoroughly by the administrator. The administrator must check the content, wordings, and other legitimate requirements, in order to prevent copyright, crimes, and false information.
+Another important feature of our platform is the General Library, where the information given there must be correct and legitimate. Before a resource provided by a user appears in the General Library, it must be checked thoroughly by the administrator. The administrator must check the content, wording, and other legitimate requirements, in order to prevent copyright, crimes, and false information.
 
 **User/Group Management**
 
-The administrator have the full ability to move/kick any users from the groups/platform, depending on the seriousness of the case. This will help maintaining a peaceful environment for focusing on group study encouragment.
+The administrator have the full ability to move/kick any users from the groups/platform, depending on the seriousness of the case. This will help maintain a peaceful environment for focusing on group study encouragement.
 
 **Detect Inappropriate Behaviour**
 
-Another duty for the administrator is to detect inappropriate behaviours in the platform. Then, the administrator can take actions on it depending on the seriousness of the case. Moreover, when a user send a report, the administrator must also come to detect inappropriate behaviour and verify that the accussion from user report is true and take actions on it.
+Another duty of the administrator is to detect inappropriate behaviors in the platform. Then, the administrator can take action on it depending on the seriousness of the case. Moreover, when a user sends a report, the administrator must also come to detect inappropriate behavior verify that the accusation from the user report is true, and take action on it.
 
 **Click Help**
 
-In case of any query from the user of our platform, a user can use help function to call for help from the administrator. This use case is special because it connects both the users and administrator, as these two actors can be contributed in this function. When a user click help, this will notify the administrator, and they will acknowledge about the situation.
+In case of any query from the user of our platform, a user can use the help function to call for help from the administrator. This use case is special because it connects both the users and administrator, as these two actors can contribute to this function. When a user clicks help, this will notify the administrator, and they will acknowledge the situation.
 
 **Send Report**
 
-This use case is used by the user. It is also an extend from the Detect Inappropriate Behaviour use case. When a user spot a suspicious behaviour that may lead to the unsafety of the community, they can send report to the administrator for further inspection. Therefore, this use case is linked with the Detect Inappropriate Behaviour use case. 
+This use case is used by the user. It is also an extension of the Detect Inappropriate Behaviour use case. When a user spot suspicious behavior that may lead to the unsafety of the community, they can send a report to the administrator for further inspection. Therefore, this use case is linked with the Detect Inappropriate Behaviour use case. 
 
 
 
