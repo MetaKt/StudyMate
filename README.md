@@ -22,7 +22,7 @@ https://docs.google.com/document/d/1IJ-cV1o2Ka36fiWwwgnNiymw2SvC3ndocS-qIBZWNsw/
 As the landscape of education evolves, students encounter new challenges in their learning journey. The increasing complexity of academic subjects, coupled with the need for collaborative learning in today's fast-paced world, has prompted the development of StudyMate. Recognizing the difficulties students face in finding suitable study groups, sharing knowledge effectively, and 
 fostering a sense of community, StudyMate aims to bridge these gaps. By providing an interactive platform that facilitates group study, knowledge exchange, and community building, StudyMate 
 strives to enhance the overall learning experience for students in universities and beyond.
-In this document we will see the different software modelings and how they are modeled. Furthermore, we will look at the purpose, intended audience, and scope of this document and project.
+In this document, we will see the different software modelings and how they are modeled. Furthermore, we will look at the purpose, intended audience, and scope of this document and project.
 
 ## 1.1 Document purpose
 The main purpose of this document is to provide details of the UMLs and software modelings of the StudyMate web application which will focus on some main diagrams and patterns used in the modeling of it. The intention of the document is to help audiences related to the Studymate web application to understand how the system is modeled, furthermore, it is also intended to show the project consultant the strengths or weaknesses of the system before the team starts detailed designs. Finally, the project consultant and team members could able to validate whether the web application meets the expected software modeling.
