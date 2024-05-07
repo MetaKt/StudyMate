@@ -387,7 +387,10 @@ This diagram shows how the admin can take action with inappropriate behavior. Fi
 <br>
 
 ## 4.4 Package Diagram
-![StudyMate_Package](https://github.com/MetaKt/StudyMate/assets/131533232/d1d09518-da37-472f-982b-48e782ff19b8)
+
+![StudyMate_Package](https://github.com/MetaKt/StudyMate/assets/131533232/7628ea59-3e5e-4b3f-8f50-bd3e5aff0962)
+
+
 <p align = "left"> Figure 4.4 Package Diagram </p>
 
 A package diagram is a type of structural diagram in the Unified Modeling Language (UML) used to depict the organization and dependencies between packages or namespaces in a system. Moreover, it is also a valuable tool for visualizing and organizing the structure of a software system, facilitating communication among stakeholders, and supporting software development activities such as design, implementation, and maintenance.
