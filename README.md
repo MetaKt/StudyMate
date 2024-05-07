@@ -384,4 +384,5 @@ This diagram depicts how the admin can come and help the users. Firstly, the use
 This diagram shows how the admin can take action with inappropriate behavior. First of all, when the users see any inappropriate behavior, they can click report and the signal will be sent to the system. After that, the system will tell the admin that there is suspicious behavior and the admin can take action with that suspicious behavior.
 <br>
 <br>
-## 4.4 Package Diagram
+
+## Package Diagram
