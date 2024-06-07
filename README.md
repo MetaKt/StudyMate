@@ -48,31 +48,15 @@ The intended audience for this document includes:
 <br>-Project stakeholders
 <br>-Documentation writers
 
-## 1.4 Document Overview
 
-
-
-
-
-
-## 2 Overall description
-
-
-
-
-## 3 Specific requirements
-
-
-
-
-## 4 System design
+## 2 Structural Modeling
 In this chapter, we will see the System Design of the StudyMate software modeling and requirement document. In this section, we delve into the architectural blueprint of StudyMate, a revolutionary platform tailored to enhance the educational experience for students and educators alike.
 
 In this chapter, we will elucidate the architectural components, data flow mechanisms, and interaction protocols that underpin StudyMate’s functionality. By exploring the system’s design rationale, you will gain insights into the foundational principles guiding its development and evolution.
 
 Our approach to system design is rooted in modularity, extensibility, and maintainability, ensuring that StudyMate can adapt to evolving educational paradigms and technological advancements. Through comprehensive architectural diagrams, interface specifications, and design patterns, we aim to provide below a comprehensive roadmap for stakeholders involved in the development and utilization of StudyMate.
 
-## 4.1 Domain model
+## 2.1 Domain model
 ![StudyMate_Domain Model](https://github.com/MetaKt/StudyMate/assets/91473477/a0d0d9b0-3c8e-4f9e-9524-babb4306e049)
 
  Figure 4.1.1 Logical Structural View: Domain Model Diagram </p>
@@ -107,7 +91,22 @@ The system admin holds additional permissions and responsibilities compared to r
 The system admin is tasked with managing various aspects of the platform, including content moderation, group management, and user account administration(managing user profiles/accounts by handling tasks such as creating, deleting, and resetting passwords). They have the authority to create, edit, and delete study groups as needed, ensuring the platform remains organized and conducive to learning.
 Ensuring the security and integrity of the platform is a key responsibility of the system admin. They are responsible for monitoring content for inappropriate behavior, taking measures to address reports from users, and implementing security protocols to safeguard the platform and its users from potential threats or breaches.
 
-## 4.2 Use case Diagrams
+
+## 2.2 Package Diagram
+
+![StudyMate_Package](https://github.com/MetaKt/StudyMate/assets/131533232/7628ea59-3e5e-4b3f-8f50-bd3e5aff0962)
+
+
+<p align = "left"> Figure 4.4 Package Diagram </p>
+
+A package diagram is a type of structural diagram in the Unified Modeling Language (UML) used to depict the organization and dependencies between packages or namespaces in a system. Moreover, it is also a valuable tool for visualizing and organizing the structure of a software system, facilitating communication among stakeholders, and supporting software development activities such as design, implementation, and maintenance.
+
+
+
+
+## 3 Behavior Modeling
+
+## 3.1 Use case Diagrams
 ![StudyMate_UseCase-UseCase_User](https://github.com/MetaKt/StudyMate/assets/131533232/7601017b-90b1-4da0-aca8-9d008ffc86b7)
 
 <p align = "center"> Figure 4.2.1 UseCase Diagram for User </p>
@@ -189,7 +188,7 @@ This use case is used by the user. It is also an extension of the Detect Inappro
 
 
 
-## 4.3 System Sequence Diagram
+## 3.2 System Sequence Diagram
 
 The System Sequence Diagram illustrates how objects interact in a particular scenario of a system within the StudyMate platform, illustrates how users interact with study groups, group activities, the general library, and the ranking system, and shows communication among stakeholders to provide a clear and concise depiction of the system's behavior, helping stakeholders to understand and discuss the system's functionality and requirements.
 
@@ -386,11 +385,4 @@ This diagram shows how the admin can take action with inappropriate behavior. Fi
 <br>
 <br>
 
-## 4.4 Package Diagram
 
-![StudyMate_Package](https://github.com/MetaKt/StudyMate/assets/131533232/7628ea59-3e5e-4b3f-8f50-bd3e5aff0962)
-
-
-<p align = "left"> Figure 4.4 Package Diagram </p>
-
-A package diagram is a type of structural diagram in the Unified Modeling Language (UML) used to depict the organization and dependencies between packages or namespaces in a system. Moreover, it is also a valuable tool for visualizing and organizing the structure of a software system, facilitating communication among stakeholders, and supporting software development activities such as design, implementation, and maintenance.
