@@ -18,6 +18,7 @@ https://docs.google.com/document/d/1IJ-cV1o2Ka36fiWwwgnNiymw2SvC3ndocS-qIBZWNsw/
 | 17/4/2024 | Week 8 | Introduction, System Design (Domain Model) |
 | 28/4/2024 | Week 10 | System Sequence Diagram |
 | 7/5/2024 | Week 11| Package Diagram |
+| 8/6/2024 | Week 15| Deployment Diagram & Activity Diagram |
 
 ##  1 Introduction
 As the landscape of education evolves, students encounter new challenges in their learning journey. The increasing complexity of academic subjects, coupled with the need for collaborative learning in today's fast-paced world, has prompted the development of StudyMate. Recognizing the difficulties students face in finding suitable study groups, sharing knowledge effectively, and 
