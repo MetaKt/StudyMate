@@ -353,32 +353,12 @@ This diagram shows the process of checking the posting of admin. Firstly, the ad
 <br>
 <br>
 
-<i>**Check Library Resources (For Admin):**</i>
-<br>
-<br>
-![StudyMate-Check Library Resouces  (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/fb8adb8c-23d1-4c7a-96b0-77b9aafd7241)
-<p align = "left"> Figure 3.2.16 System Diagram Check Library Resources (For Admin) </p>
-<br>
-This diagram shows the process of checking the posting of admin. Firstly, the admin will browse resources in the general Library to check then the system will show the resources to the admin. Later on, the admin can check the resources in the General Library.
-<br>
-<br>
-
-<i>**User / Group Management (For Admin):**</i>
-<br>
-<br>
-![StudyMate-Check Library Resouces  (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/fb8adb8c-23d1-4c7a-96b0-77b9aafd7241)
-<p align = "left"> Figure 3.2.17 System Diagram User / Group Management (For Admin) </p>
-<br>
-This diagram illustrates how the admin can manage users and groups in the application. First, the admin will browse the user’s or group’s information and the system will show them to the admin. After that, the admin will check the user’s and group’s information.
-<br>
-<br>
-
 <i>**Come Help (For Admin):**</i>
 <br>
 <br>
 ![StudyMate-Come help (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/cb9ad22b-ceb9-4d90-8276-2f111337ec40)
 
-<p align = "left"> Figure 3.2.18 System Diagram Come Help (For Admin) </p>
+<p align = "left"> Figure 3.2.16 System Diagram Come Help (For Admin) </p>
 <br>
 This diagram depicts how the admin can come and help the users. Firstly, the users must click the help button which will send a signal to the system, and the system will report to the admin that there is a user who needs help. So, the admin can go and fix the problem of the users.
 <br>
@@ -388,7 +368,7 @@ This diagram depicts how the admin can come and help the users. Firstly, the use
 <br>
 <br>
 ![StudyMate-Detect Inappropriate Behavior (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/5d0a9f0b-957b-4aa7-ba6f-7fedc1b46d6d)
-<p align = "left"> Figure 3.2.19 System Diagram Detect Inappropriate Behavior (For Admin) </p>
+<p align = "left"> Figure 3.2.17 System Diagram Detect Inappropriate Behavior (For Admin) </p>
 <br>
 This diagram shows how the admin can take action with inappropriate behavior. First of all, when the users see any inappropriate behavior, they can click report and the signal will be sent to the system. After that, the system will tell the admin that there is suspicious behavior and the admin can take action with that suspicious behavior.
 <br>
@@ -449,6 +429,135 @@ A sequence diagram is a type of Unified Modeling Language (UML) diagram that is 
 
 In our project, we will separate the Sequence Diagram into two sections including the user and the admin section.
 
+<i>**Sign Up (For Users):**</i>
+<br>
+<br>
+![Sequence Diagram-Sign Up (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/36f28222-8821-418f-b65b-5b73cb279bde)
+<p align = "left"> Figure 3.6.1 Sequence Diagram Sign Up (For Users) </p>
+<br>
+<br>
+
+<i>**Log In (For Users):**</i>
+<br>
+<br>
+![Sequence Diagram-Log In (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/791584ec-4618-4535-8579-36e760117528)
+<p align = "left"> Figure 3.6.2 Sequence Diagram Log In (For Users) </p>
+<br>
+<br>
+
+<i>**Join Group (For Users):**</i>
+<br>
+<br>
+![Sequence Diagram-Join Group (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/2d8194cd-9947-492d-8332-aa41d51d9bdf)
+<p align = "left"> Figure 3.6.3 Sequence Diagram Join Group (For Users) </p>
+<br>
+<br>
+
+<i>**Join Private Group (For Users):**</i>
+<br>
+<br>
+![Sequence Diagram-Join Provate Group (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/8662a4e7-d89b-4027-8e56-862884b3e627)
+<p align = "left"> Figure 3.6.4 Sequence Diagram Join Private Group (For Users) </p>
+<br>
+<br>
+
+<i>**Create Group (For Users):**</i>
+<br>
+<br>
+![Sequence Diagram-Create Group (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/23425fde-61d8-4495-bb00-24adefdcfb32)
+<p align = "left"> Figure 3.6.5 Sequence Diagram Create Group (For Users)
+<br>
+<br>
+
+<i>**Browse General Library (For Users):**</i>
+<br>
+<br>
+![Sequence Diagram-Browse General Library (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/bc8a3d30-c50a-4288-b161-4a9bc5b39b3a)
+<p align = "left"> Figure 3.6.6 Sequence Diagram Browse General Library (For Users)
+<br>
+<br>
+
+<i>**Share Resource from General Library (For Users):**</i>
+<br>
+<br>
+![Sequence Diagram-Share Resource from General Library (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/239414bc-a96d-49ea-9fcb-4a03336e4014)
+<p align = "left"> Figure 3.6.7 Sequence Diagram Share Resource from General Library (For Users)
+<br>
+<br>
+
+<i>**Share Post (For Users):**</i>
+<br>
+<br>
+![Sequence Diagram-Share Post (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/04fbb769-ab40-4ea7-963a-77c17914717b)
+<p align = "left"> Figure 3.6.8 Sequence Diagram Share Post (For Users)
+<br>
+<br>
+
+<i>**Like Post (For Users):**</i>
+<br>
+<br>
+![Sequence Diagram-Like Post (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/b985976e-f397-496e-96ef-4be85edc96d4)
+<p align = "left"> Figure 3.6.9 Sequence Diagram Like Post (For Users)
+<br>
+<br>
+
+<i>**Post In Group (For Usesr):**</i>
+<br>
+<br>
+![Sequence Diagram-Post in Group (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/a72586be-70f7-4d9c-ba64-7e6839cd75fc)
+<p align = "left"> Figure 3.6.10 Sequence Diagram Post In Group (For Users)
+<br>
+<br>
+
+<i>**Edit Profile (For Users):**</i>
+<br>
+<br>
+![Sequence Diagram-Edit Profile (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/88ed8dde-f551-4776-ae49-7b9ba74d37aa)
+<p align = "left"> Figure 3.6.11 Sequence Diagram Edit Profile (For Users)
+<br>
+<br>
+
+<i>**Edit Group (For Users):**</i>
+<br>
+<br>
+![Sequence Diagram-Edit Group (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/dd6ea93e-e9da-4838-82da-d54bda965924)
+<p align = "left"> Figure 3.6.12 Sequence Diagram Edit Group (For Users)
+<br>
+<br>
+
+<i>**Check Post (For Admin):**</i>
+<br>
+<br>
+![Sequence Diagram-Check Post (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/2a25b6bf-140c-414c-8b03-323d42e11976)
+<p align = "left"> Figure 3.6.13 Sequence Diagram Check Post (For Admin)
+<br>
+<br>
+
+<i>**Check Library Resource (For Admin):**</i>
+<br>
+<br>
+![Sequence Diagram-Check Library Resource (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/e68a15e1-10ff-4c07-aa38-3a8c892968a5)
+<p align = "left"> Figure 3.6.14 Sequence Diagram Library Resource (For Admin)
+<br>
+<br>
+ 
+![Sequence Diagram-Come Help (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/b0158b6f-f33a-4447-9e4b-a0319212e276)
+<i>**Come Help (For Admin):**</i>
+<br>
+<br>
+ 
+![Sequence Diagram-Come Help (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/9c50acd6-c25d-4ebb-a6cd-92324dd1129f)
+<p align = "left"> Figure 3.6.15 Sequence Diagram Come Help (For Admin)
+<br>
+<br>
+
+<i>**Detect Inappropriate Behavior (For Admin):**</i>
+<br>
+<br>
+![Sequence Diagram-Detect Inappropriate Behavior (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/e948793c-dc40-4db4-98a1-0bf4a420cbc7)
+<p align = "left"> Figure 3.6.16 Sequence DiagramDetect Inappropriate Behavior (For Admin)
+<br>
+<br>
 
 
 
