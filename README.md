@@ -319,7 +319,7 @@ This diagram reveals how to edit profile information, the users must go to their
 ![StudyMate-Edit Group (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/b1f8351d-ee11-4735-a422-faf16270f707)
 <p align = "left"> Figure 3.2.12 System Diagram Edit Group (For User) </p>
 <br>
-This diagram reveals how to edit the group's information, the users must go to the group page and the system will send back the group's information. After that, the user can click the edit group information button. However, the person who could edit the group's information must be the group's leader only, therefore, the system needs to verify whether the user is the leader by sending verification. If the user passes the verification, the system will allow them to update the information, update new information, and show new group information to the user. If the user does not passes the verification, the system will report verification failure to the user.
+This diagram reveals how to edit the group's information, the users must go to the group page and the system will send back the group's information. After that, the user can click the edit group information button. However, the person who could edit the group's information must be the group's leader only, therefore, the system needs to verify whether the user is the leader by sending verification. If the user passes the verification, the system will allow them to update the information, update new information, and show new group information to the user. If the user does not pass the verification, the system will report verification failure to the user.
 <br>
 <br>
 
@@ -408,22 +408,48 @@ An activity diagram is a type of Unified Modeling Language (UML) diagram that is
 ![StudyMate_ActivityDiagrams-Page-3](https://github.com/MetaKt/StudyMate/assets/131533232/0ef5ab1b-0c3d-42aa-9070-a1a921439aec)
 
 <p align = "left"> Figure 3.3.3 Activity Diagram (Click Help) </p>
+<br>
+<br>
 
-
-## 3.4 State MAchine Daigram
+## 3.4 State Machine Diagram
 A state machine diagram, also known as a state diagram or state transition diagram, is a graphical representation of a system's behavior that models the different states the system can be in, as well as the transitions between those states.
 
 ![State Machine Diagram](https://github.com/MetaKt/StudyMate/assets/147230981/1b167f48-9c02-418e-84b0-76fc1611d5cb)
 
 <p align = "left"> Figure 3.4.1 State Machine Diagram </p>
 <br>
-This diagram illustrates the state of the program when users are using it. First of all, the user must go to the "Authentication State" which requires the user to sign up or log in before going into the system. As you can see in the diagram that there is a box called "idle", which is Idle state indicates that the system is not currently engaged in any specific activity or behavior. If the user is willing to do any activities, there are three states for the user to choose which are "Group Management States", "Content Interaction States", and "Browsing State".
+This diagram illustrates the state of the program when users are using it. First of all, the user must go to the "Authentication State" which requires the user to sign up or log in before going into the system. As you can see in the diagram there is a box called "idle", which is Idle state indicates that the system is not currently engaged in any specific activity or behavior. If the user is willing to do any activities, there are three states for the user to choose which are "Group Management States", "Content Interaction States", and "Browsing State".
 <br>
 <br>
 1) Group Management States = The user can join groups, create groups, and edit group information (if the user is the host of that group).
 <br>
 2) Content Interaction States = The user can like posts, share posts, and upload posts.
 <br>
-3) Browsing States = The user can browse general library and share resources from the general library.
+3) Browsing States = The user can browse the general library and share resources from the general library.
+<br>
+<br>
+
+## 3.5 Communication Diagram
+A communication diagram, also known as a sequence diagram, is a type of Unified Modeling Language (UML) diagram that is used to model the interactions and message exchanges between different objects or components within a system.
+
+![Communication Diagram](https://github.com/MetaKt/StudyMate/assets/147230981/dc7e6332-e63d-4fdc-8bd6-00789a2e3d10)
+
+<p align = "left"> Figure 3.5.1 Communication Diagram </p>
+<br>
+This diagram depicts the flow sequence of the system which starts with the user and they must pass the login or sign-up verification first before getting to the system interface. Later on, the user can go to three pages which are group page, profile page, and general library page.
+<br>
+1) Group page = The user can join groups, create groups, and edit group information (if the user is the host of that group).
+2) Profile page = The user can edit his/her personal information.
+3) General Library page = The user can browse, share, and upload resources to the library.
+<br>
+<br>
+
+## 3.6 Sequence Diagram
+A sequence diagram is a type of Unified Modeling Language (UML) diagram that is used to model the dynamic behavior of a system by depicting the sequence of messages exchanged between objects or components.
+
+In our project, we will separate the Sequence Diagram into two sections including the user and the admin section.
+
+
+
 
 
