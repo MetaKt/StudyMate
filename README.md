@@ -1,6 +1,6 @@
 # StudyMate
 This is a project made by Wuhan University International Students of the year 2022 for the Requirement and Modeling class. 
-The project's objective is required to complete a requirement document for a system introduced by the students. 
+The project's objective is to complete a requirement document for a system introduced by the students. 
 
 ## What is StudyMate?
 StudyMate is an exceptional interactive website designed exclusively for individuals seeking to engage in group study. With StudyMate, you can easily connect with like-minded individuals by joining or creating study groups, participating or sharing resources in the
@@ -395,6 +395,7 @@ This diagram shows how the admin can take action with inappropriate behavior. Fi
 <br>
 
 ## 3.3 Activity Diagram for Major Use Cases
+An activity diagram is a type of Unified Modeling Language (UML) diagram that is used to model the flow of activities or actions within a system or a business process
 
 ![StudyMate_ActivityDiagrams-Page-1](https://github.com/MetaKt/StudyMate/assets/131533232/a10f2b2d-4192-4b83-a5eb-4895e470e7fa)
 
@@ -409,6 +410,20 @@ This diagram shows how the admin can take action with inappropriate behavior. Fi
 <p align = "left"> Figure 3.3.3 Activity Diagram (Click Help) </p>
 
 
+## 3.4 State MAchine Daigram
+A state machine diagram, also known as a state diagram or state transition diagram, is a graphical representation of a system's behavior that models the different states the system can be in, as well as the transitions between those states.
 
+![State Machine Diagram](https://github.com/MetaKt/StudyMate/assets/147230981/1b167f48-9c02-418e-84b0-76fc1611d5cb)
+
+<p align = "left"> Figure 3.4.1 State Machine Diagram </p>
+<br>
+This diagram illustrates the state of the program when users are using it. First of all, the user must go to the "Authentication State" which requires the user to sign up or log in before going into the system. As you can see in the diagram that there is a box called "idle", which is Idle state indicates that the system is not currently engaged in any specific activity or behavior. If the user is willing to do any activities, there are three states for the user to choose which are "Group Management States", "Content Interaction States", and "Browsing State".
+<br>
+<br>
+1) Group Management States = The user can join groups, create groups, and edit group information (if the user is the host of that group).
+<br>
+2) Content Interaction States = The user can like posts, share posts, and upload posts.
+<br>
+3) Browsing States = The user can browse general library and share resources from the general library.
 
 
