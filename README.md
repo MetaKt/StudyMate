@@ -114,7 +114,7 @@ A package diagram is a type of structural diagram in the Unified Modeling Langua
 ![class Diagram](https://github.com/MetaKt/StudyMate/assets/91473477/4c13ca10-1157-491a-b5c3-95fdf335716c)
 
 <p align = "left"> Figure 2.4.1 Class Diagram </p>
-<br>
+
 **Relationships**
 <br>
 <br>- User has Interest
@@ -124,7 +124,7 @@ A package diagram is a type of structural diagram in the Unified Modeling Langua
 <br>- StudyGroup accesses GeneralResource
 <br>- GeneralResource uploaded by User
 <br>- Admin manages User, StudyGroup, GeneralResource, and GroupActivity
-<br>
+<br><br>
 **Notes:**
 <br>
 <br>- User class is the central entity where users can perform various activities related to study groups and resources.
