@@ -238,6 +238,10 @@ In this section, it is about showing how to join a group. When the users are int
 <br>
 ![StudyMate-Join Private Group (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/f4b45494-80bc-4a19-86ae-87800577d25e)
 <p align = "left"> Figure 3.2.4 System Diagram Join Private Group (For User) </p>
+
+![StudyMate_Contracts](https://github.com/MetaKt/StudyMate/assets/131533232/109b566a-35a8-4f70-91da-20a3a10f1518)
+
+
 <br>
 This diagram illustrates the process of how the user will be able to join a private group. Firstly, the user shall click the join group button which will send the signal to the system and the system will report the joining request to the group leader. Then the next process is the process of “Request Consideration”. If the group leader accepts the new user, the leader will click accept a request and the system will update data and send the join group successfully back to the user. However, if the group host clicks decline, the system will report the join group failure to the user.
 <br>
