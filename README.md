@@ -109,8 +109,34 @@ A package diagram is a type of structural diagram in the Unified Modeling Langua
 <p align = "left"> Figure 2.3.1 Deployment Diagram </p>
 
 
+## 2.4 Class Diagram
+
+![class Diagram](https://github.com/MetaKt/StudyMate/assets/91473477/4c13ca10-1157-491a-b5c3-95fdf335716c)
+
+<p align = "left"> Figure 2.4.1 Class Diagram </p>
+
+<b>Relationships<b>
+User has Interest
+User joins StudyGroup
+StudyGroup has GroupActivity
+User performs GroupActivity
+StudyGroup accesses GeneralResource
+GeneralResource uploaded by User
+Admin manages User, StudyGroup, GeneralResource, and GroupActivity
+<b>Notes:<b>
+User class is the central entity where users can perform various activities related to study groups and resources.
+Admin inherits from User, with additional responsibilities and methods.
+Relationships indicate how different classes interact with each other, such as users joining study groups and uploading resources.
+GroupActivity and GeneralResource classes capture the specific activities and resources within the platform.
+Points system tracks the contributions of users and study groups for ranking purposes.
 
 
+
+## 2.5 Component Diagram
+
+![component Diagram](https://github.com/MetaKt/StudyMate/assets/91473477/1fb28b83-d75a-4021-90e3-df87e88ac3f6)
+
+<p align = "left"> Figure 2.5.1 Component Diagram </p>
 
 
 ## 3 Behavior Modeling
