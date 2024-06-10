@@ -318,7 +318,6 @@ This diagram reveals how to edit profile information, the users must go to their
 <br>
 ![StudtMate-Edit Group (For Users)](https://github.com/MetaKt/StudyMate/assets/131533232/2649c6d1-94a1-4d24-aa9a-af003bcdf625)
 
-[StudyMate-Edit Group (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/b1f8351d-ee11-4735-a422-faf16270f707)
 <p align = "left"> Figure 3.2.12 System Diagram Edit Group (For User) </p>
 <br>
 This diagram reveals how to edit the group's information, the users must go to the group page and the system will send back the group's information. After that, the user can click the edit group information button. However, the person who could edit the group's information must be the group's leader only, therefore, the system needs to verify whether the user is the leader by sending verification. If the user passes the verification, the system will allow them to update the information, update new information, and show new group information to the user. If the user does not pass the verification, the system will report verification failure to the user.
@@ -522,7 +521,8 @@ In our project, we will separate the Sequence Diagram into two sections includin
 <i>**Edit Group (For Users):**</i>
 <br>
 <br>
-![Sequence Diagram-Edit Group (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/dd6ea93e-e9da-4838-82da-d54bda965924)
+![Sequence Diagram-Edit Group (For Users)](https://github.com/MetaKt/StudyMate/assets/131533232/f194ffec-b8a9-45ab-9667-0ec30ca4e14d)
+
 <p align = "left"> Figure 3.6.12 Sequence Diagram Edit Group (For Users)
 <br>
 <br>
