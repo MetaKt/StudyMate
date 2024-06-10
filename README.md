@@ -319,6 +319,7 @@ This diagram reveals how to edit profile information, the users must go to their
 ![StudtMate-Edit Group (For Users)](https://github.com/MetaKt/StudyMate/assets/131533232/2649c6d1-94a1-4d24-aa9a-af003bcdf625)
 
 <p align = "left"> Figure 3.2.12 System Diagram Edit Group (For User) </p>
+
 ![StudyMate_Contracts](https://github.com/MetaKt/StudyMate/assets/131533232/2df7980f-ce0b-475d-ae23-a9f933fb7d7b)
 
 
