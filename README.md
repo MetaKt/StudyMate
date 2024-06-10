@@ -117,21 +117,21 @@ A package diagram is a type of structural diagram in the Unified Modeling Langua
 
 **Relationships**
 <br>
-<br>- User has Interest
-<br>- User joins StudyGroup
-<br>- StudyGroup has GroupActivity
-<br>- User performs GroupActivity
-<br>- StudyGroup accesses GeneralResource
-<br>- GeneralResource uploaded by User
-<br>- Admin manages User, StudyGroup, GeneralResource, and GroupActivity
+<br>- **User** has <span style="color: green;">Interest.</span>
+<br>- **User** joins <span style="color: green;">StudyGroup.</span>
+<br>- **StudyGroup** has <span style="color: green;">GroupActivity.</span>
+<br>- **User** performs <span style="color: green;">GroupActivity.</span>
+<br>- **StudyGroup** accesses <span style="color: green;">GeneralResource.</span>
+<br>- **GeneralResource** uploaded by <span style="color: green;">User.</span>
+<br>- **Admin** manages <span style="color: green;">User, StudyGroup, GeneralResource, and GroupActivity.</span>
 <br><br>
 **Notes:**
 <br>
-<br>- User class is the central entity where users can perform various activities related to study groups and resources.
-<br>- Admin inherits from User, with additional responsibilities and methods.
+<br>- **User** class is the central entity where users can perform various activities related to study groups and resources.
+<br>- **Admin** inherits from User, with additional responsibilities and methods.
 <br>- Relationships indicate how different classes interact with each other, such as users joining study groups and uploading resources.
-<br>- GroupActivity and GeneralResource classes capture the specific activities and resources within the platform.
-<br>- Points system tracks the contributions of users and study groups for ranking purposes.
+<br>- **GroupActivity** and GeneralResource classes capture the specific activities and resources within the platform.
+<br>- **Points** system tracks the contributions of users and study groups for ranking purposes.
 
 
 
