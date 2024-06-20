@@ -17,9 +17,10 @@ https://docs.google.com/document/d/1IJ-cV1o2Ka36fiWwwgnNiymw2SvC3ndocS-qIBZWNsw/
 | 16/4/2024 | Week 8 | Domain Model 2.0, Use Case Model 2.0 |
 | 17/4/2024 | Week 8 | Introduction, System Design (Domain Model) |
 | 28/4/2024 | Week 10 | System Sequence Diagram |
-| 7/5/2024 | Week 11| Package Diagram |
-| 8/6/2024 | Week 15| Deployment Diagram & Activity Diagram |
+| 7/5/2024 | Week 11| Package Diagram, Sequence Diagram |
+| 8/6/2024 | Week 15| Class Diagram, Deployment Diagram & Activity Diagram |
 | 11/6/2024| Week 16| Final version 1.0 |
+| 19/6/2024| Week 17| Final version 2.0 |
 
 ##  1 Introduction
 As the landscape of education evolves, students encounter new challenges in their learning journey. The increasing complexity of academic subjects, coupled with the need for collaborative learning in today's fast-paced world, has prompted the development of StudyMate. Recognizing the difficulties students face in finding suitable study groups, sharing knowledge effectively, and 
@@ -51,10 +52,11 @@ The intended audience for this document includes:
 <br>-Documentation writers
 
 
+
 ## Domain model
 ![StudyMate_Domain Model](https://github.com/MetaKt/StudyMate/assets/91473477/a0d0d9b0-3c8e-4f9e-9524-babb4306e049)
 
- Figure 2.1.1 Logical Structural View: Domain Model Diagram </p>
+ Figure Logical Structural View: Domain Model Diagram </p>
 
 The domain model provides an abstract, high-level overview of the key components within the StudyMate platform, illustrating how users interact with study groups, group activities, general resources, and the ranking system based on their interests. while also outlining the role and responsibilities of the system admin in managing the platform and ensuring security.
 
@@ -89,7 +91,7 @@ Ensuring the security and integrity of the platform is a key responsibility of t
 ## Use case Diagrams
 ![StudyMate_UseCase-UseCase_User](https://github.com/MetaKt/StudyMate/assets/131533232/7601017b-90b1-4da0-aca8-9d008ffc86b7)
 
-<p align = "center"> Figure 3.1.1 UseCase Diagram for User </p>
+<p align = "center"> Figure UseCase Diagram for User </p>
 
 The Use Case Diagram depicts the features an actor is capable of accessing. For our StudyMate Use Case Diagram, it is separated into two distinct diagrams for ease of comprehension. Figure 3.1.1 above is the Use Case Diagram for Users, representing all the actions a user can perform in the StudyMate platform: Sign Up, Login, Join Group, Join Private Group, Create Group, Post, Like Post, Share Post, Browse General Library, Upload Resources, Share Resources, Edit Profile, and Edit Group. 
 
@@ -135,7 +137,7 @@ A user must provide their information and descriptions upon their sign-up stage.
 Similar to as User Profile, a group name and description can be changed according to the group members' satisfaction and desire, as long as it is not offending to other users in the community. However, only the group leader is capable of doing so.
 
 ![StudyMate_UseCase-UseCase_Admin](https://github.com/MetaKt/StudyMate/assets/131533232/5c6ebfdd-5fa1-4910-afb0-d5ce1e50437a)
-<p align = "center"> Figure 3.1.2 UseCase Diagram for Admin </p>
+<p align = "center"> Figure UseCase Diagram for Admin </p>
 
 The Diagram above, Figure Figure 3.1.2, is the Use Case Diagram for the Administrator, representing all the actions an admin can perform in the StudyMate platform: Check Profile, Check Post, Check Library Resources, User/Group Management, Detect Inappropriate Behaviour, Click Help, and Send Report.
 
@@ -169,13 +171,6 @@ This use case is used by the user. It is also an extension of the Detect Inappro
 
 
 
-
-
-
-
-
-
-
 ## 2 Structural Modeling
 In this chapter, we will see the System Design of the StudyMate software modeling and requirement document. In this section, we delve into the architectural blueprint of StudyMate, a revolutionary platform tailored to enhance the educational experience for students and educators alike.
 
@@ -188,9 +183,9 @@ Our approach to system design is rooted in modularity, extensibility, and mainta
 
 ## 2.1 Class Diagram
 
-![class Diagram](https://github.com/MetaKt/StudyMate/assets/91473477/4c13ca10-1157-491a-b5c3-95fdf335716c)
+![class Diagram](https://github.com/MetaKt/StudyMate/assets/91473477/f5f5d3be-db91-4984-a926-c38cd36a15bc)
 
-<p align = "left"> Figure 2.4.1 Class Diagram </p>
+<p align = "left"> Figure 2.1.1 Class Diagram </p>
 
 **Relationships**
 <br>
@@ -224,30 +219,23 @@ A package diagram is a type of structural diagram in the Unified Modeling Langua
 
 ## 2.3 Component Diagram
 
-![component Diagram](https://github.com/MetaKt/StudyMate/assets/91473477/1fb28b83-d75a-4021-90e3-df87e88ac3f6)
+![component Diagram ](https://github.com/MetaKt/StudyMate/assets/91473477/3939c593-ea56-4f8a-9e00-0413ceb2ada4)
 
-<p align = "left"> Figure 2.5.1 Component Diagram </p>
+
+<p align = "left"> Figure 2.3.1 Component Diagram </p>
 
 
 ## 2.4 Deployment Diagram
 
 ![StudyMate_DeploymentDiagram](https://github.com/MetaKt/StudyMate/assets/131533232/25473e82-83c8-4615-844a-4fca816c2d13)
 
-<p align = "left"> Figure 2.3.1 Deployment Diagram </p>
-
-
-
-
-
-
+<p align = "left"> Figure 2.4.1 Deployment Diagram </p>
 
 
 
 
 
 ## 3 Behavior Modeling
-
-
 
 
 ## 3.1 System Sequence Diagram
@@ -260,7 +248,7 @@ In our project, we will separate the System Sequence Diagram into two sections i
 <br>
 <br>
 ![StudyMate-Sign Up (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/b5505483-74e3-48c9-a435-2e263fa42a33)
-<p align = "left"> Figure 3.2.1 System Diagram Sign Up (For User) </p>
+<p align = "left"> Figure 3.1.1 System Diagram Sign Up (For User) </p>
 <br>
 This part shows the sign-up process, as soon as the new users arrived at the application, the system required them to sign up in order to create an account. When they click “Sign Up”, the system will request the information and the users need to submit the required information. Later on, the system needs to verify that the users are real humans by sending a CAPTCHA test, and after completing it, it will report the account created successfully and bring it to another page to let the users choose groups and show posting resources.
 <br>
@@ -270,7 +258,7 @@ This part shows the sign-up process, as soon as the new users arrived at the app
 <br>
 <br>
 ![StudyMate-Log In (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/f028eaf0-eeb3-4eb5-94fb-bc27c8ae41e9)
-<p align = "left"> Figure 3.2.2 System Diagram Log In (For User) </p>
+<p align = "left"> Figure 3.1.2 System Diagram Log In (For User) </p>
 <br>
 This part shows the sign-up process, as soon as the new users arrived at the application, the system required them to sign up in order to create an account. When they click “Sign Up”, the system will request the information and the users need to submit the required information. Later on, the system needs to verify that the users are real humans by sending a CAPTCHA test, and after completing it, it will report the account created successfully and bring it to another page to let the users choose groups and show posting resources.
 <br>
@@ -280,7 +268,7 @@ This part shows the sign-up process, as soon as the new users arrived at the app
 <br>
 <br>
 ![StudyMate-Join Group (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/8d40e18d-04b9-430a-9dda-4de4870ee3e1)
-<p align = "left"> Figure 3.2.3 System Diagram Join Group (For User) </p>
+<p align = "left"> Figure 3.1.3 System Diagram Join Group (For User) </p>
 <br>
 In this section, it is about showing how to join a group. When the users are interested in any groups, they can just kindly click on the join group button, the system will automatically update the data and report the join group successfully.
 <br>
@@ -290,7 +278,7 @@ In this section, it is about showing how to join a group. When the users are int
 <br>
 <br>
 ![StudyMate-Join Private Group (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/f4b45494-80bc-4a19-86ae-87800577d25e)
-<p align = "left"> Figure 3.2.4 System Diagram Join Private Group (For User) </p>
+<p align = "left"> Figure 3.1.4 System Diagram Join Private Group (For User) </p>
 
 ![StudyMate_Contracts](https://github.com/MetaKt/StudyMate/assets/131533232/109b566a-35a8-4f70-91da-20a3a10f1518)
 
@@ -304,7 +292,7 @@ This diagram illustrates the process of how the user will be able to join a priv
 <br>
 <br>
 ![StudyMate-Create Group (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/36be5226-8697-4fc4-90c6-7f87e2a20b01)
-<p align = "left"> Figure 3.2.5 System Diagram Create Group (For User) </p>
+<p align = "left"> Figure 3.1.5 System Diagram Create Group (For User) </p>
 <br>
 This diagram depicts the topic of how the user can create a group. Firstly, the user must click the “Create group” button then set up the group name and group description and send it to the system. Later on, the system will update the data of a new group will be created and the user’s new group will show the user that his or her new group is already created.
 <br>
@@ -314,7 +302,7 @@ This diagram depicts the topic of how the user can create a group. Firstly, the 
 <br>
 <br>
 ![StudyMate-Browse General Library (For Users))](https://github.com/MetaKt/StudyMate/assets/147230981/7d6c479a-f395-481c-b048-1f1c28d2c3a6)
-<p align = "left"> Figure 3.2.6 System Diagram Browse General Library (For User) </p>
+<p align = "left"> Figure 3.1.6 System Diagram Browse General Library (For User) </p>
 <br>
 This diagram illustrates the concept of “Browse General Library”. So if the users would like to browse resources in the General Library, they must click the button to enter General Library, and the system will bring them to the library and show resources.
 <br>
@@ -324,7 +312,7 @@ This diagram illustrates the concept of “Browse General Library”. So if the 
 <br>
 <br>
 ![StudyMate-Share Resource from General Library (For User)](https://github.com/MetaKt/StudyMate/assets/147230981/3a3bd72d-3d24-4cbc-8d3c-585364154ed0)
-<p align = "left"> Figure 3.2.7 System Diagram Share Resources From General Library (For User) </p>
+<p align = "left"> Figure 3.1.7 System Diagram Share Resources From General Library (For User) </p>
 <br>
 The diagram above shows the concept of how the users can share resources from the General Library. This is a method of how the users can share resources from the General Library to the groups. First of all, the users should enter General Library and the system will show resources in General Libray to the users. After that, the users click share resources and the system will request the destination to share resources. After the user provides the destination, the system will send the information to the group and show the users that the resource has been shared successfully.
 <br>
@@ -334,7 +322,7 @@ The diagram above shows the concept of how the users can share resources from th
 <br>
 <br>
 ![StudyMate-Share Post (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/006701aa-3355-4b02-8e04-a614da26a481)
-<p align = "left"> Figure 3.2.8 System Diagram Share Post (For User) </p>
+<p align = "left"> Figure 3.1.8 System Diagram Share Post (For User) </p>
 <br>
 The diagram above shows the concept of how users can share posts. This is a method of how the users can share posts from themselves to the General Library. First of all, the users should enter General Library and the system will show resources in General Libray to the users. After that, the users click share post  and the system will request posting resources. After the user provides the resources already, the system will update the information to show the users that the resource has been posted successfully.
 <br>
@@ -344,7 +332,7 @@ The diagram above shows the concept of how users can share posts. This is a meth
 <br>
 <br>
 ![StudyMate-Like Post (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/8b5d60af-e5c7-4d34-9375-115c84712ff0)
-<p align = "left"> Figure 3.2.9 System Diagram Like Post (For User) </p>
+<p align = "left"> Figure 3.1.9 System Diagram Like Post (For User) </p>
 <br>
 In this diagram, it provides the concept of liking posts. As soon as the users enter a group and see the post that they like, they will click the like button and the system will update the data. Then the system will update like to the group and the group will show like to the users.
 <br>
@@ -354,7 +342,7 @@ In this diagram, it provides the concept of liking posts. As soon as the users e
 <br>
 <br>
 ![StudyMate-Post in Group  (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/f22dcaae-c1d0-4104-ab3e-dfe626580b47)
-<p align = "left"> Figure 3.2.10 System Diagram Post In Group (For User) </p>
+<p align = "left"> Figure 3.1.10 System Diagram Post In Group (For User) </p>
 <br>
 In this diagram, it shows the process of how the users will post in a group. Firstly, the users must enter the group and then click the “Create post” button. Later on, the system will ask the users to provide resources. After the users provide resources, the system will update the data and show posts in the gro
 <br>
@@ -364,7 +352,7 @@ In this diagram, it shows the process of how the users will post in a group. Fir
 <br>
 <br>
 ![StudyMate-Edit Profile (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/fa46fd68-ca8c-4120-8bc4-fd4e8f3468c4)
-<p align = "left"> Figure 3.2.11 System Diagram Edit Profile (For User) </p>
+<p align = "left"> Figure 3.1.11 System Diagram Edit Profile (For User) </p>
 <br>
 This diagram reveals how to edit profile information, the users must go to their profile page after that the system sends back the requested information and shows information to the users. Then the users click the edit profile button and can start editing their profile information. After finishing the system will update the data send new profile information to the profile page and show it to the users.
 <br>
@@ -375,7 +363,7 @@ This diagram reveals how to edit profile information, the users must go to their
 <br>
 ![StudtMate-Edit Group (For Users)](https://github.com/MetaKt/StudyMate/assets/131533232/2649c6d1-94a1-4d24-aa9a-af003bcdf625)
 
-<p align = "left"> Figure 3.2.12 System Diagram Edit Group (For User) </p>
+<p align = "left"> Figure 3.1.12 System Diagram Edit Group (For User) </p>
 
 ![StudyMate_Contracts](https://github.com/MetaKt/StudyMate/assets/131533232/2df7980f-ce0b-475d-ae23-a9f933fb7d7b)
 
@@ -389,27 +377,18 @@ This diagram reveals how to edit the group's information, the users must go to t
 <br>
 <br>
 ![StudyMate-Check Post (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/15508c06-f050-40ad-b675-b4cc6e0d491c)
-<p align = "left"> Figure 3.2.13 System Diagram Check Post (For Admin) </p>
+<p align = "left"> Figure 3.1.13 System Diagram Check Post (For Admin) </p>
 <br>
 This diagram shows the process of checking the posting of admin. Firstly, the admin will request a post from the system to check then the system will show the requested posts to the admin and the admin can check the post..
 <br>
 <br>
 
-<i>**Check Post (For Admin):**</i>
-<br>
-<br>
-![StudyMate-Check Post (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/15508c06-f050-40ad-b675-b4cc6e0d491c)
-<p align = "left"> Figure 3.2.14 System Diagram Check Post (For Admin) </p>
-<br>
-This diagram shows the process of checking the posting of admin. Firstly, the admin will browse posts in the application to check then the system will show the posts to the admin. Later on, the admin can check the post.
-<br>
-<br>
 
 <i>**Check Library Resources (For Admin):**</i>
 <br>
 <br>
 ![StudyMate-Check Library Resouces  (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/fb8adb8c-23d1-4c7a-96b0-77b9aafd7241)
-<p align = "left"> Figure 3.2.15 System Diagram Check Post (For Admin) </p>
+<p align = "left"> Figure 3.1.14 System Diagram Check Post (For Admin) </p>
 <br>
 This diagram shows the process of checking the posting of admin. Firstly, the admin will browse resources in the general Library to check then the system will show the posts to the admin. Later on, the admin can check the post.
 <br>
@@ -420,7 +399,7 @@ This diagram shows the process of checking the posting of admin. Firstly, the ad
 <br>
 ![StudyMate-Come help (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/cb9ad22b-ceb9-4d90-8276-2f111337ec40)
 
-<p align = "left"> Figure 3.2.16 System Diagram Come Help (For Admin) </p>
+<p align = "left"> Figure 3.1.15 System Diagram Come Help (For Admin) </p>
 <br>
 This diagram depicts how the admin can come and help the users. Firstly, the users must click the help button which will send a signal to the system, and the system will report to the admin that there is a user who needs help. So, the admin can go and fix the problem of the users.
 <br>
@@ -430,38 +409,151 @@ This diagram depicts how the admin can come and help the users. Firstly, the use
 <br>
 <br>
 ![StudyMate-Detect Inappropriate Behavior (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/5d0a9f0b-957b-4aa7-ba6f-7fedc1b46d6d)
-<p align = "left"> Figure 3.2.17 System Diagram Detect Inappropriate Behavior (For Admin) </p>
+<p align = "left"> Figure 3.1.16 System Diagram Detect Inappropriate Behavior (For Admin) </p>
 <br>
 This diagram shows how the admin can take action with inappropriate behavior. First of all, when the users see any inappropriate behavior, they can click report and the signal will be sent to the system. After that, the system will tell the admin that there is suspicious behavior and the admin can take action with that suspicious behavior.
 <br>
 <br>
 
-## 3.2 Activity Diagram for Major Use Cases
-An activity diagram is a type of Unified Modeling Language (UML) diagram that is used to model the flow of activities or actions within a system or a business process
 
-![StudyMate_ActivityDiagrams-Page-1](https://github.com/MetaKt/StudyMate/assets/131533232/17560f70-04f0-46ed-b7b0-580b04209653)
+## 3.2 Sequence Diagram
+A sequence diagram is a type of Unified Modeling Language (UML) diagram that is used to model the dynamic behavior of a system by depicting the sequence of messages exchanged between objects or components.
 
+In our project, we will separate the Sequence Diagram into two sections including the user and the admin section.
 
-<p align = "left"> Figure 3.3.1 Activity Diagram (Browse General Library & Group Joining) </p>
-
-![StudyMate_ActivityDiagrams-Page-2](https://github.com/MetaKt/StudyMate/assets/131533232/d2fe9f3a-2380-485c-87dc-42e074a303ad)
-
-
-<p align = "left"> Figure 3.3.2 Activity Diagram (Upload Resource & Sign Up) </p>
-
-![StudyMate_ActivityDiagrams-Page-3](https://github.com/MetaKt/StudyMate/assets/131533232/60f6e48b-df38-4900-9b1d-eab8ae26a98d)
-
-
-<p align = "left"> Figure 3.3.3 Activity Diagram (Click Help) </p>
+<i>**Sign Up (For Users):**</i>
 <br>
 <br>
+![Sequence Diagram-Sign Up (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/36f28222-8821-418f-b65b-5b73cb279bde)
+<p align = "left"> Figure 3.2.1 Sequence Diagram Sign Up (For Users) </p>
+<br>
+<br>
+
+<i>**Log In (For Users):**</i>
+<br>
+<br>
+![Sequence Diagram-Log In (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/791584ec-4618-4535-8579-36e760117528)
+<p align = "left"> Figure 3.2.2 Sequence Diagram Log In (For Users) </p>
+<br>
+<br>
+
+<i>**Join Group (For Users):**</i>
+<br>
+<br>
+![Sequence Diagram-Join Group (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/2d8194cd-9947-492d-8332-aa41d51d9bdf)
+<p align = "left"> Figure 3.2.3 Sequence Diagram Join Group (For Users) </p>
+<br>
+<br>
+
+<i>**Join Private Group (For Users):**</i>
+<br>
+<br>
+![Sequence Diagram-Join Provate Group (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/8662a4e7-d89b-4027-8e56-862884b3e627)
+<p align = "left"> Figure 3.2.4 Sequence Diagram Join Private Group (For Users) </p>
+<br>
+<br>
+
+<i>**Create Group (For Users):**</i>
+<br>
+<br>
+![Sequence Diagram-Create Group (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/23425fde-61d8-4495-bb00-24adefdcfb32)
+<p align = "left"> Figure 3.2.5 Sequence Diagram Create Group (For Users)
+<br>
+<br>
+
+<i>**Browse General Library (For Users):**</i>
+<br>
+<br>
+![Sequence Diagram-Browse General Library (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/bc8a3d30-c50a-4288-b161-4a9bc5b39b3a)
+<p align = "left"> Figure 3.2.6 Sequence Diagram Browse General Library (For Users)
+<br>
+<br>
+
+<i>**Share Resource from General Library (For Users):**</i>
+<br>
+<br>
+![Sequence Diagram-Share Resource from General Library (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/239414bc-a96d-49ea-9fcb-4a03336e4014)
+<p align = "left"> Figure 3.2.7 Sequence Diagram Share Resource from General Library (For Users)
+<br>
+<br>
+
+<i>**Share Post (For Users):**</i>
+<br>
+<br>
+![Sequence Diagram-Share Post (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/04fbb769-ab40-4ea7-963a-77c17914717b)
+<p align = "left"> Figure 3.2.8 Sequence Diagram Share Post (For Users)
+<br>
+<br>
+
+<i>**Like Post (For Users):**</i>
+<br>
+<br>
+![Sequence Diagram-Like Post (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/b985976e-f397-496e-96ef-4be85edc96d4)
+<p align = "left"> Figure 3.2.9 Sequence Diagram Like Post (For Users)
+<br>
+<br>
+
+<i>**Post In Group (For Usesr):**</i>
+<br>
+<br>
+![Sequence Diagram-Post in Group (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/a72586be-70f7-4d9c-ba64-7e6839cd75fc)
+<p align = "left"> Figure 3.2.10 Sequence Diagram Post In Group (For Users)
+<br>
+<br>
+
+<i>**Edit Profile (For Users):**</i>
+<br>
+<br>
+![Sequence Diagram-Edit Profile (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/88ed8dde-f551-4776-ae49-7b9ba74d37aa)
+<p align = "left"> Figure 3.2.11 Sequence Diagram Edit Profile (For Users)
+<br>
+<br>
+
+<i>**Edit Group (For Users):**</i>
+<br>
+<br>
+![Sequence Diagram-Edit Group (For Users)](https://github.com/MetaKt/StudyMate/assets/131533232/f194ffec-b8a9-45ab-9667-0ec30ca4e14d)
+
+<p align = "left"> Figure 3.2.12 Sequence Diagram Edit Group (For Users)
+<br>
+<br>
+
+<i>**Check Post (For Admin):**</i>
+<br>
+<br>
+![Sequence Diagram-Check Post (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/2a25b6bf-140c-414c-8b03-323d42e11976)
+<p align = "left"> Figure 3.2.13 Sequence Diagram Check Post (For Admin)
+<br>
+<br>
+
+<i>**Check Library Resource (For Admin):**</i>
+<br>
+<br>
+![Sequence Diagram-Check Library Resource (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/e68a15e1-10ff-4c07-aa38-3a8c892968a5)
+<p align = "left"> Figure 3.2.14 Sequence Diagram Library Resource (For Admin)
+<br>
+<br>
+ 
+![Sequence Diagram-Come Help (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/9c50acd6-c25d-4ebb-a6cd-92324dd1129f)
+<p align = "left"> Figure 3.2.15 Sequence Diagram Come Help (For Admin)
+<br>
+<br>
+
+<i>**Detect Inappropriate Behavior (For Admin):**</i>
+<br>
+<br>
+![Sequence Diagram-Detect Inappropriate Behavior (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/e948793c-dc40-4db4-98a1-0bf4a420cbc7)
+<p align = "left"> Figure 3.2.16 Sequence DiagramDetect Inappropriate Behavior (For Admin)
+<br>
+<br>
+
 
 ## 3.3 State Machine Diagram
 A state machine diagram, also known as a state diagram or state transition diagram, is a graphical representation of a system's behavior that models the different states the system can be in, as well as the transitions between those states.
 
 ![State Machine Diagram](https://github.com/MetaKt/StudyMate/assets/147230981/1b167f48-9c02-418e-84b0-76fc1611d5cb)
 
-<p align = "left"> Figure 3.4.1 State Machine Diagram </p>
+<p align = "left"> Figure 3.3.1 State Machine Diagram </p>
 <br>
 This diagram illustrates the state of the program when users are using it. First of all, the user must go to the "Authentication State" which requires the user to sign up or log in before going into the system. As you can see in the diagram there is a box called "idle", which is Idle state indicates that the system is not currently engaged in any specific activity or behavior. If the user is willing to do any activities, there are three states for the user to choose which are "Group Management States", "Content Interaction States", and "Browsing State".
 <br>
@@ -475,142 +567,25 @@ This diagram illustrates the state of the program when users are using it. First
 <br>
 
 
-## 3.5 Sequence Diagram
-A sequence diagram is a type of Unified Modeling Language (UML) diagram that is used to model the dynamic behavior of a system by depicting the sequence of messages exchanged between objects or components.
 
-In our project, we will separate the Sequence Diagram into two sections including the user and the admin section.
+## 3.4 Activity Diagram for Major Use Cases
+An activity diagram is a type of Unified Modeling Language (UML) diagram that is used to model the flow of activities or actions within a system or a business process
 
-<i>**Sign Up (For Users):**</i>
-<br>
-<br>
-![Sequence Diagram-Sign Up (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/36f28222-8821-418f-b65b-5b73cb279bde)
-<p align = "left"> Figure 3.6.1 Sequence Diagram Sign Up (For Users) </p>
-<br>
-<br>
-
-<i>**Log In (For Users):**</i>
-<br>
-<br>
-![Sequence Diagram-Log In (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/791584ec-4618-4535-8579-36e760117528)
-<p align = "left"> Figure 3.6.2 Sequence Diagram Log In (For Users) </p>
-<br>
-<br>
-
-<i>**Join Group (For Users):**</i>
-<br>
-<br>
-![Sequence Diagram-Join Group (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/2d8194cd-9947-492d-8332-aa41d51d9bdf)
-<p align = "left"> Figure 3.6.3 Sequence Diagram Join Group (For Users) </p>
-<br>
-<br>
-
-<i>**Join Private Group (For Users):**</i>
-<br>
-<br>
-![Sequence Diagram-Join Provate Group (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/8662a4e7-d89b-4027-8e56-862884b3e627)
-<p align = "left"> Figure 3.6.4 Sequence Diagram Join Private Group (For Users) </p>
-<br>
-<br>
-
-<i>**Create Group (For Users):**</i>
-<br>
-<br>
-![Sequence Diagram-Create Group (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/23425fde-61d8-4495-bb00-24adefdcfb32)
-<p align = "left"> Figure 3.6.5 Sequence Diagram Create Group (For Users)
-<br>
-<br>
-
-<i>**Browse General Library (For Users):**</i>
-<br>
-<br>
-![Sequence Diagram-Browse General Library (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/bc8a3d30-c50a-4288-b161-4a9bc5b39b3a)
-<p align = "left"> Figure 3.6.6 Sequence Diagram Browse General Library (For Users)
-<br>
-<br>
-
-<i>**Share Resource from General Library (For Users):**</i>
-<br>
-<br>
-![Sequence Diagram-Share Resource from General Library (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/239414bc-a96d-49ea-9fcb-4a03336e4014)
-<p align = "left"> Figure 3.6.7 Sequence Diagram Share Resource from General Library (For Users)
-<br>
-<br>
-
-<i>**Share Post (For Users):**</i>
-<br>
-<br>
-![Sequence Diagram-Share Post (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/04fbb769-ab40-4ea7-963a-77c17914717b)
-<p align = "left"> Figure 3.6.8 Sequence Diagram Share Post (For Users)
-<br>
-<br>
-
-<i>**Like Post (For Users):**</i>
-<br>
-<br>
-![Sequence Diagram-Like Post (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/b985976e-f397-496e-96ef-4be85edc96d4)
-<p align = "left"> Figure 3.6.9 Sequence Diagram Like Post (For Users)
-<br>
-<br>
-
-<i>**Post In Group (For Usesr):**</i>
-<br>
-<br>
-![Sequence Diagram-Post in Group (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/a72586be-70f7-4d9c-ba64-7e6839cd75fc)
-<p align = "left"> Figure 3.6.10 Sequence Diagram Post In Group (For Users)
-<br>
-<br>
-
-<i>**Edit Profile (For Users):**</i>
-<br>
-<br>
-![Sequence Diagram-Edit Profile (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/88ed8dde-f551-4776-ae49-7b9ba74d37aa)
-<p align = "left"> Figure 3.6.11 Sequence Diagram Edit Profile (For Users)
-<br>
-<br>
-
-<i>**Edit Group (For Users):**</i>
-<br>
-<br>
-![Sequence Diagram-Edit Group (For Users)](https://github.com/MetaKt/StudyMate/assets/131533232/f194ffec-b8a9-45ab-9667-0ec30ca4e14d)
-
-<p align = "left"> Figure 3.6.12 Sequence Diagram Edit Group (For Users)
-<br>
-<br>
-
-<i>**Check Post (For Admin):**</i>
-<br>
-<br>
-![Sequence Diagram-Check Post (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/2a25b6bf-140c-414c-8b03-323d42e11976)
-<p align = "left"> Figure 3.6.13 Sequence Diagram Check Post (For Admin)
-<br>
-<br>
-
-<i>**Check Library Resource (For Admin):**</i>
-<br>
-<br>
-![Sequence Diagram-Check Library Resource (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/e68a15e1-10ff-4c07-aa38-3a8c892968a5)
-<p align = "left"> Figure 3.6.14 Sequence Diagram Library Resource (For Admin)
-<br>
-<br>
- 
-![Sequence Diagram-Come Help (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/b0158b6f-f33a-4447-9e4b-a0319212e276)
-<i>**Come Help (For Admin):**</i>
-<br>
-<br>
- 
-![Sequence Diagram-Come Help (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/9c50acd6-c25d-4ebb-a6cd-92324dd1129f)
-<p align = "left"> Figure 3.6.15 Sequence Diagram Come Help (For Admin)
-<br>
-<br>
-
-<i>**Detect Inappropriate Behavior (For Admin):**</i>
-<br>
-<br>
-![Sequence Diagram-Detect Inappropriate Behavior (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/e948793c-dc40-4db4-98a1-0bf4a420cbc7)
-<p align = "left"> Figure 3.6.16 Sequence DiagramDetect Inappropriate Behavior (For Admin)
-<br>
-<br>
+![StudyMate_ActivityDiagrams-Page-1](https://github.com/MetaKt/StudyMate/assets/131533232/17560f70-04f0-46ed-b7b0-580b04209653)
 
 
+<p align = "left"> Figure 3.4.1 Activity Diagram (Browse General Library & Group Joining) </p>
+
+![StudyMate_ActivityDiagrams-Page-2](https://github.com/MetaKt/StudyMate/assets/131533232/d2fe9f3a-2380-485c-87dc-42e074a303ad)
+
+
+<p align = "left"> Figure 3.4.2 Activity Diagram (Upload Resource & Sign Up) </p>
+
+![StudyMate_ActivityDiagrams-Page-3](https://github.com/MetaKt/StudyMate/assets/131533232/60f6e48b-df38-4900-9b1d-eab8ae26a98d)
+
+
+<p align = "left"> Figure 3.4.3 Activity Diagram (Click Help) </p>
+<br>
+<br>
 
 
