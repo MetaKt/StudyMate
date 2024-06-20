@@ -561,11 +561,31 @@ In our project, we will separate the Sequence Diagram into two sections includin
 ## 3.3 State Machine Diagram
 A state machine diagram, also known as a state diagram or state transition diagram, is a graphical representation of a system's behavior that models the different states the system can be in, as well as the transitions between those states.
 
-![State Machine Diagram](https://github.com/MetaKt/StudyMate/assets/147230981/1b167f48-9c02-418e-84b0-76fc1611d5cb)
-
-<p align = "left"> Figure 3.3.1 State Machine Diagram </p>
 <br>
-This diagram illustrates the state of the program when users are using it. First of all, the user must go to the "Authentication State" which requires the user to sign up or log in before going into the system. As you can see in the diagram there is a box called "idle", which is an Idle state indicates that the system is not currently engaged in any specific activity or behavior. If the user is willing to do any activities, there are three states for the user to choose which are "Group Management States", "Content Interaction States", and "Browsing State".
+![State Machine Diagram-Log In](https://github.com/MetaKt/StudyMate/assets/147230981/a0eb83cc-b106-4576-8906-2e65b1a643a7)
+<p align = "left"> Figure 3.3.1 State Machine Diagram - Log In</p>
+<br>
+
+<br>
+![State Machine Diagram-Sign Up](https://github.com/MetaKt/StudyMate/assets/147230981/c38c2f29-f0f1-4f52-98b8-7f9416ec91a4)
+<p align = "left"> Figure 3.3.2 State Machine Diagram - Sign Up</p>
+<br>
+
+<br>
+![State Machine Diagram-Group Joining](https://github.com/MetaKt/StudyMate/assets/147230981/84b2a9b5-6f41-42d9-a15a-3fedba1304d9)
+<p align = "left"> Figure 3.3.3 State Machine Diagram - Group Joining</p>
+<br>
+
+<br>
+![State Machine Diagram-Browse General Library](https://github.com/MetaKt/StudyMate/assets/147230981/2465468c-7f3e-43dc-bf6c-b5451c61627d)
+<p align = "left"> Figure 3.3.4 State Machine Diagram - Browse General Library</p>
+<br>
+
+<br>
+![State Machine Diagram-Upload Resources](https://github.com/MetaKt/StudyMate/assets/147230981/c507b5a6-8282-460f-ba89-aecf1873c267)
+<p align = "left"> Figure 3.3.5 State Machine Diagram - Upload Resources</p>
+<br>
+
 <br>
 <br>
 
