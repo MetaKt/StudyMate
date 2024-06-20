@@ -508,7 +508,6 @@ In our project, we will separate the Sequence Diagram into two sections includin
 <p align = "left"> Figure 3.2.10 Sequence Diagram Post In Group (For Users)
 <br>
 <br>
-![Sequence Diagram-Edit Group (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/f86f3645-6d69-4b4d-822e-8bb2ff39f3b9) 
 
 <i>**Edit Profile (For Users):**</i>
 <br>
