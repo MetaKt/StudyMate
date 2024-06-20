@@ -563,7 +563,7 @@ A state machine diagram, also known as a state diagram or state transition diagr
 
 <p align = "left"> Figure 3.3.1 State Machine Diagram (Log In)
 
-![State Machine Diagram-Sign Up](https://github.com/MetaKt/StudyMate/assets/147230981/04744a86-596c-4160-b135-ddf8830a11a7)
+![State Machine Diagram-Sign Up](https://github.com/MetaKt/StudyMate/assets/147230981/646b5e9e-fa5d-4b3e-9fd7-d557afb99831)
 
 <p align = "left"> Figure 3.3.2 State Machine Diagram (Sign Up)
 
