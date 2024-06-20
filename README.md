@@ -424,7 +424,8 @@ In our project, we will separate the Sequence Diagram into two sections includin
 <i>**Sign Up (For Users):**</i>
 <br>
 <br>
-![Sequence Diagram-Sign Up (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/36f28222-8821-418f-b65b-5b73cb279bde)
+![Sequence Diagram-Sign Up (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/be69a126-453b-4aa1-ad8a-015f2276b973)
+
 <p align = "left"> Figure 3.2.1 Sequence Diagram Sign Up (For Users) </p>
 <br>
 <br>
@@ -432,7 +433,7 @@ In our project, we will separate the Sequence Diagram into two sections includin
 <i>**Log In (For Users):**</i>
 <br>
 <br>
-![Sequence Diagram-Log In (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/791584ec-4618-4535-8579-36e760117528)
+![Sequence Diagram-Log In (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/d33a6472-b329-4216-858a-1bc71f4e7f43)
 <p align = "left"> Figure 3.2.2 Sequence Diagram Log In (For Users) </p>
 <br>
 <br>
@@ -440,7 +441,8 @@ In our project, we will separate the Sequence Diagram into two sections includin
 <i>**Join Group (For Users):**</i>
 <br>
 <br>
-![Sequence Diagram-Join Group (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/2d8194cd-9947-492d-8332-aa41d51d9bdf)
+![Sequence Diagram-Join Group (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/7f4f22e9-5e91-41ed-a890-e1a9ee4f2cc8)
+)
 <p align = "left"> Figure 3.2.3 Sequence Diagram Join Group (For Users) </p>
 <br>
 <br>
@@ -448,7 +450,8 @@ In our project, we will separate the Sequence Diagram into two sections includin
 <i>**Join Private Group (For Users):**</i>
 <br>
 <br>
-![Sequence Diagram-Join Provate Group (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/8662a4e7-d89b-4027-8e56-862884b3e627)
+![Sequence Diagram-Join Private Group (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/82f5b2b0-1f50-4acb-8e26-88812ae075f1)
+
 <p align = "left"> Figure 3.2.4 Sequence Diagram Join Private Group (For Users) </p>
 <br>
 <br>
@@ -456,7 +459,8 @@ In our project, we will separate the Sequence Diagram into two sections includin
 <i>**Create Group (For Users):**</i>
 <br>
 <br>
-![Sequence Diagram-Create Group (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/23425fde-61d8-4495-bb00-24adefdcfb32)
+![Sequence Diagram-Create Group (For Users) (1)](https://github.com/MetaKt/StudyMate/assets/147230981/8bd39044-cda3-4923-a4f5-20152d6d96e1)
+
 <p align = "left"> Figure 3.2.5 Sequence Diagram Create Group (For Users)
 <br>
 <br>
@@ -464,7 +468,8 @@ In our project, we will separate the Sequence Diagram into two sections includin
 <i>**Browse General Library (For Users):**</i>
 <br>
 <br>
-![Sequence Diagram-Browse General Library (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/bc8a3d30-c50a-4288-b161-4a9bc5b39b3a)
+![Sequence Diagram-Browse General Library (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/68dd570a-05a9-425f-9f0f-db39237d5053)
+
 <p align = "left"> Figure 3.2.6 Sequence Diagram Browse General Library (For Users)
 <br>
 <br>
@@ -472,7 +477,8 @@ In our project, we will separate the Sequence Diagram into two sections includin
 <i>**Share Resource from General Library (For Users):**</i>
 <br>
 <br>
-![Sequence Diagram-Share Resource from General Library (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/239414bc-a96d-49ea-9fcb-4a03336e4014)
+![Sequence Diagram-Share Resource from General Library (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/56d1e370-9a65-47a4-8dc5-772e87afa9d5)
+
 <p align = "left"> Figure 3.2.7 Sequence Diagram Share Resource from General Library (For Users)
 <br>
 <br>
@@ -480,7 +486,8 @@ In our project, we will separate the Sequence Diagram into two sections includin
 <i>**Share Post (For Users):**</i>
 <br>
 <br>
-![Sequence Diagram-Share Post (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/04fbb769-ab40-4ea7-963a-77c17914717b)
+![Sequence Diagram-Share Post (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/b0794d35-d9bf-4c97-9d62-264680dce89c)
+
 <p align = "left"> Figure 3.2.8 Sequence Diagram Share Post (For Users)
 <br>
 <br>
@@ -488,7 +495,7 @@ In our project, we will separate the Sequence Diagram into two sections includin
 <i>**Like Post (For Users):**</i>
 <br>
 <br>
-![Sequence Diagram-Like Post (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/b985976e-f397-496e-96ef-4be85edc96d4)
+![Sequence Diagram-Like Post (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/331c3d26-5ed7-4e74-91b8-0bb166805f31)
 <p align = "left"> Figure 3.2.9 Sequence Diagram Like Post (For Users)
 <br>
 <br>
@@ -496,15 +503,18 @@ In our project, we will separate the Sequence Diagram into two sections includin
 <i>**Post In Group (For Usesr):**</i>
 <br>
 <br>
-![Sequence Diagram-Post in Group (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/a72586be-70f7-4d9c-ba64-7e6839cd75fc)
+![Sequence Diagram-Post in Group (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/9280f6ab-cb40-48fb-a6ab-e6bc1862082c)
+
 <p align = "left"> Figure 3.2.10 Sequence Diagram Post In Group (For Users)
 <br>
 <br>
+![Sequence Diagram-Edit Group (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/f86f3645-6d69-4b4d-822e-8bb2ff39f3b9)
 
 <i>**Edit Profile (For Users):**</i>
 <br>
 <br>
-![Sequence Diagram-Edit Profile (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/88ed8dde-f551-4776-ae49-7b9ba74d37aa)
+![Sequence Diagram-Edit Profile (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/9cb4daa0-a54b-42e6-b3f2-a1136d39f926)
+
 <p align = "left"> Figure 3.2.11 Sequence Diagram Edit Profile (For Users)
 <br>
 <br>
@@ -512,38 +522,39 @@ In our project, we will separate the Sequence Diagram into two sections includin
 <i>**Edit Group (For Users):**</i>
 <br>
 <br>
-![Sequence Diagram-Edit Group (For Users)](https://github.com/MetaKt/StudyMate/assets/131533232/f194ffec-b8a9-45ab-9667-0ec30ca4e14d)
-
+![Sequence Diagram-Edit Group (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/b50da5a7-40e2-4620-9863-ca192105ee84)
 <p align = "left"> Figure 3.2.12 Sequence Diagram Edit Group (For Users)
 <br>
 <br>
 
-<i>**Check Post (For Admin):**</i>
+<i>**Manage Content (For Admin):**</i>
 <br>
 <br>
-![Sequence Diagram-Check Post (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/2a25b6bf-140c-414c-8b03-323d42e11976)
-<p align = "left"> Figure 3.2.13 Sequence Diagram Check Post (For Admin)
+![Sequence Diagram-Manage Content (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/1151fa21-ddda-4eee-a2df-060c55839a5f)
+<p align = "left"> Figure 3.2.13 Sequence Diagram Manage Content (For Admin)
 <br>
 <br>
 
-<i>**Check Library Resource (For Admin):**</i>
+<i>**Manage Library Resource (For Admin):**</i>
 <br>
 <br>
-![Sequence Diagram-Check Library Resource (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/e68a15e1-10ff-4c07-aa38-3a8c892968a5)
-<p align = "left"> Figure 3.2.14 Sequence Diagram Library Resource (For Admin)
+![Sequence Diagram-Manage Library Resource (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/fff4327a-0a84-4f78-afc0-609456cd0f2a)
+<p align = "left"> Figure 3.2.14 Sequence Diagram Manage Library Resource (For Admin)
 <br>
 <br>
  
-![Sequence Diagram-Come Help (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/9c50acd6-c25d-4ebb-a6cd-92324dd1129f)
-<p align = "left"> Figure 3.2.15 Sequence Diagram Come Help (For Admin)
+![Sequence Diagram-Click Help (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/684acc3e-58b2-4825-addd-107186b825e2)
+
+<p align = "left"> Figure 3.2.15 Sequence Diagram Click Help (For Admin)
 <br>
 <br>
 
-<i>**Detect Inappropriate Behavior (For Admin):**</i>
+<i>**Monitor Security (For Admin):**</i>
 <br>
 <br>
-![Sequence Diagram-Detect Inappropriate Behavior (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/e948793c-dc40-4db4-98a1-0bf4a420cbc7)
-<p align = "left"> Figure 3.2.16 Sequence DiagramDetect Inappropriate Behavior (For Admin)
+![Sequence Diagram-Detect Inappropriate Behavior (For Admin)]![Sequence Diagram-Monitor Security (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/bbd3889b-4e0f-4f6a-b86f-2a82250f18ff)
+
+<p align = "left"> Figure 3.2.16 Sequence DiagramDetect Monitor Security (For Admin)
 <br>
 <br>
 
@@ -555,16 +566,10 @@ A state machine diagram, also known as a state diagram or state transition diagr
 
 <p align = "left"> Figure 3.3.1 State Machine Diagram </p>
 <br>
-This diagram illustrates the state of the program when users are using it. First of all, the user must go to the "Authentication State" which requires the user to sign up or log in before going into the system. As you can see in the diagram there is a box called "idle", which is Idle state indicates that the system is not currently engaged in any specific activity or behavior. If the user is willing to do any activities, there are three states for the user to choose which are "Group Management States", "Content Interaction States", and "Browsing State".
+This diagram illustrates the state of the program when users are using it. First of all, the user must go to the "Authentication State" which requires the user to sign up or log in before going into the system. As you can see in the diagram there is a box called "idle", which is an Idle state indicates that the system is not currently engaged in any specific activity or behavior. If the user is willing to do any activities, there are three states for the user to choose which are "Group Management States", "Content Interaction States", and "Browsing State".
 <br>
 <br>
-1) Group Management States = The user can join groups, create groups, and edit group information (if the user is the host of that group).
-<br>
-2) Content Interaction States = The user can like posts, share posts, and upload posts.
-<br>
-3) Browsing States = The user can browse the general library and share resources from the general library.
-<br>
-<br>
+
 
 
 
