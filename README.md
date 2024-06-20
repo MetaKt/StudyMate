@@ -548,12 +548,10 @@ In our project, we will separate the Sequence Diagram into two sections includin
 
 <p align = "left"> Figure 3.2.15 Sequence Diagram Click Help (For Admin)
 <br>
-<br>
-
 <i>**Monitor Security (For Admin):**</i>
 <br>
 <br>
-![Sequence Diagram-Detect Inappropriate Behavior (For Admin)]![Sequence Diagram-Monitor Security (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/bbd3889b-4e0f-4f6a-b86f-2a82250f18ff)
+[Sequence Diagram-Detect Inappropriate Behavior (For Admin)]![Sequence Diagram-Monitor Security (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/bbd3889b-4e0f-4f6a-b86f-2a82250f18ff)
 
 <p align = "left"> Figure 3.2.16 Sequence DiagramDetect Monitor Security (For Admin)
 <br>
