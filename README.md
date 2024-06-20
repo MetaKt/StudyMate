@@ -562,32 +562,32 @@ In our project, we will separate the Sequence Diagram into two sections includin
 A state machine diagram, also known as a state diagram or state transition diagram, is a graphical representation of a system's behavior that models the different states the system can be in, as well as the transitions between those states.
 
 <br>
-![State Machine Diagram - Log In](https://github.com/MetaKt/StudyMate/assets/147230981/4dbaad66-7f39-4110-aafc-e98d200bf4ed)
+[State Machine Diagram - Log In](https://github.com/MetaKt/StudyMate/assets/147230981/4dbaad66-7f39-4110-aafc-e98d200bf4ed)
 
 <p align = "left"> Figure 3.3.1 State Machine Diagram (Log In)</p>
 <br>
 
 <br>
-![State Machine Diagram - Sign Up](https://github.com/MetaKt/StudyMate/assets/147230981/860f290a-84d1-46e7-a8d5-546530cf4a95)
+[State Machine Diagram - Sign Up](https://github.com/MetaKt/StudyMate/assets/147230981/860f290a-84d1-46e7-a8d5-546530cf4a95)
 
 <p align = "left"> Figure 3.3.2 State Machine Diagram (Sign Up)</p>
 <br>
 
 <br>
-![State Machine Diagram - Group Joining](https://github.com/MetaKt/StudyMate/assets/147230981/8e099b91-296d-440b-bf65-4876c88471bf)
+[State Machine Diagram - Group Joining](https://github.com/MetaKt/StudyMate/assets/147230981/8e099b91-296d-440b-bf65-4876c88471bf)
 
 <p align = "left"> Figure 3.3.3 State Machine Diagram (Group Joining)</p>
 <br>
 
 <br>
-![State Machine Diagram - Browse General Library](https://github.com/MetaKt/StudyMate/assets/147230981/3e9adda8-a8c7-403a-a2cc-7b725493aabb)
+[State Machine Diagram - Browse General Library](https://github.com/MetaKt/StudyMate/assets/147230981/3e9adda8-a8c7-403a-a2cc-7b725493aabb)
 
 
 <p align = "left"> Figure 3.3.4 State Machine Diagram (Browse General Library)</p>
 <br>
 
 <br>
-![State Machine Diagram - Upload Resources](https://github.com/MetaKt/StudyMate/assets/147230981/840a345e-3648-4a7d-bed1-d48cc9b07ed1)
+[State Machine Diagram - Upload Resources](https://github.com/MetaKt/StudyMate/assets/147230981/840a345e-3648-4a7d-bed1-d48cc9b07ed1)
 
 <p align = "left"> Figure 3.3.5 State Machine Diagram (Upload Resources)</p>
 <br>
