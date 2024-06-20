@@ -562,30 +562,29 @@ In our project, we will separate the Sequence Diagram into two sections includin
 A state machine diagram, also known as a state diagram or state transition diagram, is a graphical representation of a system's behavior that models the different states the system can be in, as well as the transitions between those states.
 
 <br>
-![State Machine Diagram-Log In](https://github.com/MetaKt/StudyMate/assets/147230981/b92d64fa-4f0f-478f-828d-84147e1e8db8)
+![State Machine Diagram-Log In](https://github.com/MetaKt/StudyMate/assets/147230981/b8edaba2-bca3-424b-a1b7-32335f6d5ccf)
+
 <p align = "left"> Figure 3.3.1 State Machine Diagram (Log In)</p>
 <br>
 
 <br>
-![State Machine Diagram-Sign Up](https://github.com/MetaKt/StudyMate/assets/147230981/34828cbb-d618-4183-8160-45bc74f4ab4a)
-
+![State Machine Diagram-Sign Up](https://github.com/MetaKt/StudyMate/assets/147230981/651a4a05-c1ac-4276-a7ed-c63d88a813e0)
 <p align = "left"> Figure 3.3.2 State Machine Diagram (Sign Up)</p>
 <br>
 
 <br>
-![State Machine Diagram-Group Joining](https://github.com/MetaKt/StudyMate/assets/147230981/99f1a400-7e29-432b-9cf5-b485f423dc6f)
-
+![State Machine Diagram-Group Joining](https://github.com/MetaKt/StudyMate/assets/147230981/bfd781c7-2b88-4a2b-89c8-8abc8b832fd7)
 <p align = "left"> Figure 3.3.3 State Machine Diagram (Group Joining)</p>
 <br>
 
 <br>
-![State Machine Diagram-Browse General Library](https://github.com/MetaKt/StudyMate/assets/147230981/f16b1545-5332-4d48-b711-a3f39e051974)
-
+![State Machine Diagram-Browse General Library](https://github.com/MetaKt/StudyMate/assets/147230981/a891bdbf-0368-4318-a3a8-c4c949471b23)
 <p align = "left"> Figure 3.3.4 State Machine Diagram (Browse General Library)</p>
 <br>
 
 <br>
-![State Machine Diagram-Upload Resources](https://github.com/MetaKt/StudyMate/assets/147230981/05c63304-b7ec-4b3d-b941-a24a8a4f7df5)
+![State Machine Diagram-Upload Resources](https://github.com/MetaKt/StudyMate/assets/147230981/88ed8ab2-00c1-44ff-a09f-7fbdec3db5f1)
+
 <p align = "left"> Figure 3.3.5 State Machine Diagram (Upload Resources)</p>
 <br>
 
