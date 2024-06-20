@@ -563,6 +563,19 @@ A state machine diagram, also known as a state diagram or state transition diagr
 ![State Machine Diagram-Log In](https://github.com/MetaKt/StudyMate/assets/147230981/4c9ef0ce-c357-45cb-bfb3-ca96a68092ab)
 <p align = "left"> Figure 3.3.1 State Machine Diagram (Log In)
 
+![State Machine Diagram-Sign Up](https://github.com/MetaKt/StudyMate/assets/147230981/d022720f-692f-45cd-bcb4-ca0f75a13cba)
+<p align = "left"> Figure 3.3.1 State Machine Diagram (Sign Up)
+
+![State Machine Diagram-Browse General Library](https://github.com/MetaKt/StudyMate/assets/147230981/4a97a95a-b863-4cb5-be2d-514b115b0ee9)
+<p align = "left"> Figure 3.3.1 State Machine Diagram (Browse General Library)
+
+![State Machine Diagram-Group Joining](https://github.com/MetaKt/StudyMate/assets/147230981/3f7a51da-823b-489b-b493-47f48f79f362)
+<p align = "left"> Figure 3.3.1 State Machine Diagram (Group Joining)
+
+![State Machine Diagram-Upload Resources](https://github.com/MetaKt/StudyMate/assets/147230981/9fc47603-7307-458b-b596-865bcc43f524)
+<p align = "left"> Figure 3.3.1 State Machine Diagram (Upload Resources)
+
+
  
 ## 3.4 Activity Diagram for Major Use Cases
 An activity diagram is a type of Unified Modeling Language (UML) diagram that is used to model the flow of activities or actions within a system or a business process
