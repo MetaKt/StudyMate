@@ -562,31 +562,32 @@ In our project, we will separate the Sequence Diagram into two sections includin
 A state machine diagram, also known as a state diagram or state transition diagram, is a graphical representation of a system's behavior that models the different states the system can be in, as well as the transitions between those states.
 
 <br>
-![18 (1)](https://github.com/MetaKt/StudyMate/assets/147230981/9ac42697-479c-4a11-aa34-59f7fd83c384)
+![State Machine Diagram-Log In](https://github.com/MetaKt/StudyMate/assets/147230981/564215c2-c1ab-4638-8374-3c36595945b9)
 
 <p align = "left"> Figure 3.3.1 State Machine Diagram (Log In)</p>
 <br>
 
 <br>
-![19 (1)](https://github.com/MetaKt/StudyMate/assets/147230981/e9bd5443-a11d-4a5c-94a9-812465bcc7ac)
+![State Machine Diagram-Sign Up](https://github.com/MetaKt/StudyMate/assets/147230981/1f5a6bba-8733-4251-ab4e-51ec55483beb)
 
 <p align = "left"> Figure 3.3.2 State Machine Diagram (Sign Up)</p>
 <br>
 
 <br>
-![20 (1)](https://github.com/MetaKt/StudyMate/assets/147230981/535d5b29-59c5-4f57-8348-4f45e1e49200)
+![State Machine Diagram-Browse General Library](https://github.com/MetaKt/StudyMate/assets/147230981/ea0bfa17-9bf2-4045-bae5-02a82a7efb28)
 
 <p align = "left"> Figure 3.3.3 State Machine Diagram (Group Joining)</p>
 <br>
 
 <br>
-![21 (1)](https://github.com/MetaKt/StudyMate/assets/147230981/acc42f4c-ebec-45ca-8e4b-2e2c9b7479a9)
+![State Machine Diagram-Group Joining](https://github.com/MetaKt/StudyMate/assets/147230981/e0c09c88-6e6a-4fce-965c-57f0f85897ea)
 
 <p align = "left"> Figure 3.3.4 State Machine Diagram (Browse General Library)</p>
 <br>
 
 <br>
-![22 (1)](https://github.com/MetaKt/StudyMate/assets/147230981/7dc15bd2-604b-4946-b0b8-680b53a31a95)
+![State Machine Diagram-Upload Resources](https://github.com/MetaKt/StudyMate/assets/147230981/497ef00e-5158-44f6-a9bf-2c65e53226e4)
+
 <p align = "left"> Figure 3.3.5 State Machine Diagram (Upload Resources)</p>
 <br>
 
