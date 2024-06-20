@@ -599,6 +599,7 @@ A state machine diagram, also known as a state diagram or state transition diagr
 
 ## 3.4 Activity Diagram for Major Use Cases
 An activity diagram is a type of Unified Modeling Language (UML) diagram that is used to model the flow of activities or actions within a system or a business process
+<br>
 
 ![StudyMate_ActivityDiagrams-Page-1](https://github.com/MetaKt/StudyMate/assets/131533232/17560f70-04f0-46ed-b7b0-580b04209653)
 
