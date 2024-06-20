@@ -19,6 +19,7 @@ https://docs.google.com/document/d/1IJ-cV1o2Ka36fiWwwgnNiymw2SvC3ndocS-qIBZWNsw/
 | 28/4/2024 | Week 10 | System Sequence Diagram |
 | 7/5/2024 | Week 11| Package Diagram |
 | 8/6/2024 | Week 15| Deployment Diagram & Activity Diagram |
+| 11/6/2024| Week 16| Final version 1.0 |
 
 ##  1 Introduction
 As the landscape of education evolves, students encounter new challenges in their learning journey. The increasing complexity of academic subjects, coupled with the need for collaborative learning in today's fast-paced world, has prompted the development of StudyMate. Recognizing the difficulties students face in finding suitable study groups, sharing knowledge effectively, and 
@@ -50,14 +51,7 @@ The intended audience for this document includes:
 <br>-Documentation writers
 
 
-## 2 Structural Modeling
-In this chapter, we will see the System Design of the StudyMate software modeling and requirement document. In this section, we delve into the architectural blueprint of StudyMate, a revolutionary platform tailored to enhance the educational experience for students and educators alike.
-
-In this chapter, we will elucidate the architectural components, data flow mechanisms, and interaction protocols that underpin StudyMate’s functionality. By exploring the system’s design rationale, you will gain insights into the foundational principles guiding its development and evolution.
-
-Our approach to system design is rooted in modularity, extensibility, and maintainability, ensuring that StudyMate can adapt to evolving educational paradigms and technological advancements. Through comprehensive architectural diagrams, interface specifications, and design patterns, we aim to provide below a comprehensive roadmap for stakeholders involved in the development and utilization of StudyMate.
-
-## 2.1 Domain model
+## Domain model
 ![StudyMate_Domain Model](https://github.com/MetaKt/StudyMate/assets/91473477/a0d0d9b0-3c8e-4f9e-9524-babb4306e049)
 
  Figure 2.1.1 Logical Structural View: Domain Model Diagram </p>
@@ -92,59 +86,7 @@ The system admin holds additional permissions and responsibilities compared to r
 The system admin is tasked with managing various aspects of the platform, including content moderation, group management, and user account administration(managing user profiles/accounts by handling tasks such as creating, deleting, and resetting passwords). They have the authority to create, edit, and delete study groups as needed, ensuring the platform remains organized and conducive to learning.
 Ensuring the security and integrity of the platform is a key responsibility of the system admin. They are responsible for monitoring content for inappropriate behavior, taking measures to address reports from users, and implementing security protocols to safeguard the platform and its users from potential threats or breaches.
 
-
-## 2.2 Package Diagram
-
-![StudyMate_Package](https://github.com/MetaKt/StudyMate/assets/131533232/7628ea59-3e5e-4b3f-8f50-bd3e5aff0962)
-
-
-<p align = "left"> Figure 2.2.1 Package Diagram </p>
-
-A package diagram is a type of structural diagram in the Unified Modeling Language (UML) used to depict the organization and dependencies between packages or namespaces in a system. Moreover, it is also a valuable tool for visualizing and organizing the structure of a software system, facilitating communication among stakeholders, and supporting software development activities such as design, implementation, and maintenance.
-
-## 2.3 Deployment Diagram
-
-![StudyMate_DeploymentDiagram](https://github.com/MetaKt/StudyMate/assets/131533232/d98a49f6-5a7d-45fe-97dc-db7e4376f170)
-
-<p align = "left"> Figure 2.3.1 Deployment Diagram </p>
-
-
-## 2.4 Class Diagram
-
-![class Diagram](https://github.com/MetaKt/StudyMate/assets/91473477/4c13ca10-1157-491a-b5c3-95fdf335716c)
-
-<p align = "left"> Figure 2.4.1 Class Diagram </p>
-
-**Relationships**
-<br>
-<br>- **User** has <span style="color: green;">Interest.</span>
-<br>- **User** joins <span style="color: green;">StudyGroup.</span>
-<br>- **StudyGroup** has <span style="color: green;">GroupActivity.</span>
-<br>- **User** performs <span style="color: green;">GroupActivity.</span>
-<br>- **StudyGroup** accesses <span style="color: green;">GeneralResource.</span>
-<br>- **GeneralResource** uploaded by <span style="color: green;">User.</span>
-<br>- **Admin** manages <span style="color: green;">User, StudyGroup, GeneralResource, and GroupActivity.</span>
-<br><br>
-**Notes:**
-<br>
-<br>- **User** class is the central entity where users can perform various activities related to study groups and resources.
-<br>- **Admin** inherits from User, with additional responsibilities and methods.
-<br>- Relationships indicate how different classes interact with each other, such as users joining study groups and uploading resources.
-<br>- **GroupActivity** and GeneralResource classes capture the specific activities and resources within the platform.
-<br>- **Points** system tracks the contributions of users and study groups for ranking purposes.
-
-
-
-## 2.5 Component Diagram
-
-![component Diagram](https://github.com/MetaKt/StudyMate/assets/91473477/1fb28b83-d75a-4021-90e3-df87e88ac3f6)
-
-<p align = "left"> Figure 2.5.1 Component Diagram </p>
-
-
-## 3 Behavior Modeling
-
-## 3.1 Use case Diagrams
+## Use case Diagrams
 ![StudyMate_UseCase-UseCase_User](https://github.com/MetaKt/StudyMate/assets/131533232/7601017b-90b1-4da0-aca8-9d008ffc86b7)
 
 <p align = "center"> Figure 3.1.1 UseCase Diagram for User </p>
@@ -222,11 +164,93 @@ In case of any query from the user of our platform, a user can use the help func
 
 **Send Report**
 
-This use case is used by the user. It is also an extension of the Detect Inappropriate Behaviour use case. When a user spot suspicious behavior that may lead to the unsafety of the community, they can send a report to the administrator for further inspection. Therefore, this use case is linked with the Detect Inappropriate Behaviour use case. 
+This use case is used by the user. It is also an extension of the Detect Inappropriate Behaviour use case. When a user spot suspicious behavior that may lead to the unsafety of the community, they can send a report to the administrator for further inspection. Therefore, this use case is linked with the Detect Inappropriate Behaviour use case.
 
 
 
-## 3.2 System Sequence Diagram
+
+
+
+
+
+
+
+
+## 2 Structural Modeling
+In this chapter, we will see the System Design of the StudyMate software modeling and requirement document. In this section, we delve into the architectural blueprint of StudyMate, a revolutionary platform tailored to enhance the educational experience for students and educators alike.
+
+In this chapter, we will elucidate the architectural components, data flow mechanisms, and interaction protocols that underpin StudyMate’s functionality. By exploring the system’s design rationale, you will gain insights into the foundational principles guiding its development and evolution.
+
+Our approach to system design is rooted in modularity, extensibility, and maintainability, ensuring that StudyMate can adapt to evolving educational paradigms and technological advancements. Through comprehensive architectural diagrams, interface specifications, and design patterns, we aim to provide below a comprehensive roadmap for stakeholders involved in the development and utilization of StudyMate.
+
+
+
+
+## 2.1 Class Diagram
+
+![class Diagram](https://github.com/MetaKt/StudyMate/assets/91473477/4c13ca10-1157-491a-b5c3-95fdf335716c)
+
+<p align = "left"> Figure 2.4.1 Class Diagram </p>
+
+**Relationships**
+<br>
+<br>- **User** has <span style="color: green;">Interest.</span>
+<br>- **User** joins <span style="color: green;">StudyGroup.</span>
+<br>- **StudyGroup** has <span style="color: green;">GroupActivity.</span>
+<br>- **User** performs <span style="color: green;">GroupActivity.</span>
+<br>- **StudyGroup** accesses <span style="color: green;">GeneralResource.</span>
+<br>- **GeneralResource** uploaded by <span style="color: green;">User.</span>
+<br>- **Admin** manages <span style="color: green;">User, StudyGroup, GeneralResource, and GroupActivity.</span>
+<br><br>
+**Notes:**
+<br>
+<br>- **User** class is the central entity where users can perform various activities related to study groups and resources.
+<br>- **Admin** inherits from User, with additional responsibilities and methods.
+<br>- Relationships indicate how different classes interact with each other, such as users joining study groups and uploading resources.
+<br>- **GroupActivity** and GeneralResource classes capture the specific activities and resources within the platform.
+<br>- **Points** system tracks the contributions of users and study groups for ranking purposes.
+
+
+
+## 2.2 Package Diagram
+
+![StudyMate_Package](https://github.com/MetaKt/StudyMate/assets/131533232/7628ea59-3e5e-4b3f-8f50-bd3e5aff0962)
+
+
+<p align = "left"> Figure 2.2.1 Package Diagram </p>
+
+A package diagram is a type of structural diagram in the Unified Modeling Language (UML) used to depict the organization and dependencies between packages or namespaces in a system. Moreover, it is also a valuable tool for visualizing and organizing the structure of a software system, facilitating communication among stakeholders, and supporting software development activities such as design, implementation, and maintenance.
+
+
+## 2.3 Component Diagram
+
+![component Diagram](https://github.com/MetaKt/StudyMate/assets/91473477/1fb28b83-d75a-4021-90e3-df87e88ac3f6)
+
+<p align = "left"> Figure 2.5.1 Component Diagram </p>
+
+
+## 2.4 Deployment Diagram
+
+![StudyMate_DeploymentDiagram](https://github.com/MetaKt/StudyMate/assets/131533232/25473e82-83c8-4615-844a-4fca816c2d13)
+
+<p align = "left"> Figure 2.3.1 Deployment Diagram </p>
+
+
+
+
+
+
+
+
+
+
+
+## 3 Behavior Modeling
+
+
+
+
+## 3.1 System Sequence Diagram
 
 The System Sequence Diagram illustrates how objects interact in a particular scenario of a system within the StudyMate platform, illustrates how users interact with study groups, group activities, the general library, and the ranking system, and shows communication among stakeholders to provide a clear and concise depiction of the system's behavior, helping stakeholders to understand and discuss the system's functionality and requirements.
 
@@ -412,7 +436,7 @@ This diagram shows how the admin can take action with inappropriate behavior. Fi
 <br>
 <br>
 
-## 3.3 Activity Diagram for Major Use Cases
+## 3.2 Activity Diagram for Major Use Cases
 An activity diagram is a type of Unified Modeling Language (UML) diagram that is used to model the flow of activities or actions within a system or a business process
 
 ![StudyMate_ActivityDiagrams-Page-1](https://github.com/MetaKt/StudyMate/assets/131533232/a10f2b2d-4192-4b83-a5eb-4895e470e7fa)
@@ -429,7 +453,7 @@ An activity diagram is a type of Unified Modeling Language (UML) diagram that is
 <br>
 <br>
 
-## 3.4 State Machine Diagram
+## 3.3 State Machine Diagram
 A state machine diagram, also known as a state diagram or state transition diagram, is a graphical representation of a system's behavior that models the different states the system can be in, as well as the transitions between those states.
 
 ![State Machine Diagram](https://github.com/MetaKt/StudyMate/assets/147230981/1b167f48-9c02-418e-84b0-76fc1611d5cb)
@@ -447,22 +471,8 @@ This diagram illustrates the state of the program when users are using it. First
 <br>
 <br>
 
-## 3.5 Communication Diagram
-A communication diagram, also known as a sequence diagram, is a type of Unified Modeling Language (UML) diagram that is used to model the interactions and message exchanges between different objects or components within a system.
 
-![Communication Diagram](https://github.com/MetaKt/StudyMate/assets/147230981/dc7e6332-e63d-4fdc-8bd6-00789a2e3d10)
-
-<p align = "left"> Figure 3.5.1 Communication Diagram </p>
-<br>
-This diagram depicts the flow sequence of the system which starts with the user and they must pass the login or sign-up verification first before getting to the system interface. Later on, the user can go to three pages which are group page, profile page, and general library page.
-<br>
-1) Group page = The user can join groups, create groups, and edit group information (if the user is the host of that group).
-2) Profile page = The user can edit his/her personal information.
-3) General Library page = The user can browse, share, and upload resources to the library.
-<br>
-<br>
-
-## 3.6 Sequence Diagram
+## 3.5 Sequence Diagram
 A sequence diagram is a type of Unified Modeling Language (UML) diagram that is used to model the dynamic behavior of a system by depicting the sequence of messages exchanged between objects or components.
 
 In our project, we will separate the Sequence Diagram into two sections including the user and the admin section.
