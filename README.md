@@ -547,9 +547,6 @@ In our project, we will separate the Sequence Diagram into two sections includin
  
 ![StudyMate_UseCase-Page-3](https://github.com/MetaKt/StudyMate/assets/131533232/7db070dc-f2af-4dfc-96a3-eba08eeb6b55)
 
-<br>
-<br>
-
 <p align = "left"> Figure 3.2.16 Detect Inappropriate Behavior Sequence Diagram Click Help (For Admin)
 <br>
 <br>
