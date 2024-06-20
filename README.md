@@ -552,24 +552,14 @@ In our project, we will separate the Sequence Diagram into two sections includin
 <br>
 <br>
 ![Sequence Diagram-Monitor Security (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/2bb4f157-30da-42ea-b6d2-3eaef6574894)
-<p align = "left"> Figure 3.2.16 MOnitor Security Sequence Diagram Click Help (For Admin)
+<p align = "left"> Figure 3.2.16 Monitor Security Sequence Diagram Click Help (For Admin)
 <br>
 <br>
 
 
 ## 3.3 State Machine Diagram
 A state machine diagram, also known as a state diagram or state transition diagram, is a graphical representation of a system's behavior that models the different states the system can be in, as well as the transitions between those states.
-
-<br>
-<i>**Monitor Security (For Admin):**</i>
-<br>
-<br>
-![Sequence Diagram-Monitor Security (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/2bb4f157-30da-42ea-b6d2-3eaef6574894)
-<p align = "left"> Figure 3.2.16 MOnitor Security Sequence Diagram Click Help (For Admin)
-<br>
-
-<br>
-<br>
+![State Machine Diagram-Log In](https://github.com/MetaKt/StudyMate/assets/147230981/4c9ef0ce-c357-45cb-bfb3-ca96a68092ab)
 
 
 ## 3.4 Activity Diagram for Major Use Cases
