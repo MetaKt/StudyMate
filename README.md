@@ -505,11 +505,10 @@ In our project, we will separate the Sequence Diagram into two sections includin
 <br>
 <br>
 ![Sequence Diagram-Post in Group (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/9280f6ab-cb40-48fb-a6ab-e6bc1862082c)
-
 <p align = "left"> Figure 3.2.10 Sequence Diagram Post In Group (For Users)
 <br>
 <br>
-![Sequence Diagram-Edit Group (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/f86f3645-6d69-4b4d-822e-8bb2ff39f3b9)
+![Sequence Diagram-Edit Group (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/f86f3645-6d69-4b4d-822e-8bb2ff39f3b9) 
 
 <i>**Edit Profile (For Users):**</i>
 <br>
@@ -578,19 +577,19 @@ An activity diagram is a type of Unified Modeling Language (UML) diagram that is
 <br>
 
 ![StudyMate_ActivityDiagrams-Page-1](https://github.com/MetaKt/StudyMate/assets/131533232/17560f70-04f0-46ed-b7b0-580b04209653)
+<p align = "left"> Figure 3.4.1 Activity Diagram (Browse General Library & Group Joining)
 
-
-<p align = "left"> Figure 3.4.1 Activity Diagram (Browse General Library & Group Joining) </p>
+<br>
+<br>
 
 ![StudyMate_ActivityDiagrams-Page-2](https://github.com/MetaKt/StudyMate/assets/131533232/d2fe9f3a-2380-485c-87dc-42e074a303ad)
+<p align = "left"> Figure 3.4.2 Activity Diagram (Upload Resource & Sign Up)
 
-
-<p align = "left"> Figure 3.4.2 Activity Diagram (Upload Resource & Sign Up) </p>
+<br>
+<br>
 
 ![StudyMate_ActivityDiagrams-Page-3](https://github.com/MetaKt/StudyMate/assets/131533232/60f6e48b-df38-4900-9b1d-eab8ae26a98d)
-
-
-<p align = "left"> Figure 3.4.3 Activity Diagram (Click Help) </p>
+<p align = "left"> Figure 3.4.3 Activity Diagram (Click Help)
 <br>
 <br>
 
