@@ -508,11 +508,10 @@ In our project, we will separate the Sequence Diagram into two sections includin
 <i>**Edit Profile (For Users):**</i>
 <br>
 <br>
-
+![Sequence Diagram-Edit Profile (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/f4d3e637-fcb0-494c-a539-59ddab671412)
 <p align = "left"> Figure 3.2.11 Sequence Diagram Edit Profile (For Users)
 <br>
 <br>
-![Sequence Diagram-Edit Profile (For Users)](https://github.com/MetaKt/StudyMate/assets/147230981/7ddbddee-8b34-4f18-9a7e-231f432af606)
 
 <i>**Edit Group (For Users):**</i>
 <br>
@@ -522,11 +521,11 @@ In our project, we will separate the Sequence Diagram into two sections includin
 <br>
 <br>
 
-<i>**Check Content (For Admin):**</i>
+<i>**Check Post (For Admin):**</i>
 <br>
 <br>
-
-<p align = "left"> Figure 3.2.13 Sequence Diagram Check Content (For Admin)
+![Sequence Diagram-Check Post (For Admin) (1)](https://github.com/MetaKt/StudyMate/assets/147230981/fb1885e9-1fe4-4886-b32d-ae95258b5f7b)
+<p align = "left"> Figure 3.2.13 Sequence Diagram Check Post (For Admin)
 <br>
 <br>
 
@@ -534,7 +533,6 @@ In our project, we will separate the Sequence Diagram into two sections includin
 <br>
 <br>
 ![Sequence Diagram-Check Library Resouces  (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/61fd3fe0-e60b-4685-a5b4-845c57ae5ac4)
-
 <p align = "left"> Figure 3.2.14 Sequence Diagram Check Library Resource (For Admin)
 <br>
 <br>
