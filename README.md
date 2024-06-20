@@ -408,6 +408,7 @@ This diagram depicts how the admin can come and help the users. Firstly, the use
 <i>**Detect Inappropriate Behavior (For Admin):**</i>
 <br>
 <br>
+<br>
 ![StudyMate-Detect Inappropriate Behavior (For Admin)](https://github.com/MetaKt/StudyMate/assets/147230981/5d0a9f0b-957b-4aa7-ba6f-7fedc1b46d6d)
 <p align = "left"> Figure 3.1.16 System Diagram Detect Inappropriate Behavior (For Admin) </p>
 <br>
