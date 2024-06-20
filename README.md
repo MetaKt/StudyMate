@@ -562,7 +562,7 @@ In our project, we will separate the Sequence Diagram into two sections includin
 A state machine diagram, also known as a state diagram or state transition diagram, is a graphical representation of a system's behavior that models the different states the system can be in, as well as the transitions between those states.
 
 <br>
-![State Machine Diagram - Log In](https://github.com/MetaKt/StudyMate/assets/147230981/6a1ef870-8610-4bfe-95c4-59540689b82e)
+![State Machine Diagram - Log In](https://github.com/MetaKt/StudyMate/assets/147230981/4dbaad66-7f39-4110-aafc-e98d200bf4ed)
 
 <p align = "left"> Figure 3.3.1 State Machine Diagram (Log In)</p>
 <br>
