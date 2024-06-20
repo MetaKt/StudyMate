@@ -559,19 +559,24 @@ In our project, we will separate the Sequence Diagram into two sections includin
 ## 3.3 State Machine Diagram
 A state machine diagram, also known as a state diagram or state transition diagram, is a graphical representation of a system's behavior that models the different states the system can be in, as well as the transitions between those states.
 
-![State Machine Diagram-Log In](https://github.com/MetaKt/StudyMate/assets/147230981/4c9ef0ce-c357-45cb-bfb3-ca96a68092ab)
+![State Machine Diagram-Log In](https://github.com/MetaKt/StudyMate/assets/147230981/288f182b-fe89-409b-a5a5-e5b65bd0e373)
+
 <p align = "left"> Figure 3.3.1 State Machine Diagram (Log In)
 
-![State Machine Diagram-Sign Up](https://github.com/MetaKt/StudyMate/assets/147230981/d022720f-692f-45cd-bcb4-ca0f75a13cba)
+![State Machine Diagram-Sign Up](https://github.com/MetaKt/StudyMate/assets/147230981/04744a86-596c-4160-b135-ddf8830a11a7)
+
 <p align = "left"> Figure 3.3.2 State Machine Diagram (Sign Up)
 
-![State Machine Diagram-Browse General Library](https://github.com/MetaKt/StudyMate/assets/147230981/4a97a95a-b863-4cb5-be2d-514b115b0ee9)
+![State Machine Diagram-Browse General Library](https://github.com/MetaKt/StudyMate/assets/147230981/fe668486-ab01-42d0-bb4b-57afd91e227b)
+
 <p align = "left"> Figure 3.3.3 State Machine Diagram (Browse General Library)
 
-![State Machine Diagram-Group Joining](https://github.com/MetaKt/StudyMate/assets/147230981/3f7a51da-823b-489b-b493-47f48f79f362)
+![State Machine Diagram-Group Joining](https://github.com/MetaKt/StudyMate/assets/147230981/6e397af5-408e-4930-b639-a685c3001780)
+
 <p align = "left"> Figure 3.3.4 State Machine Diagram (Group Joining)
 
-![State Machine Diagram-Upload Resources](https://github.com/MetaKt/StudyMate/assets/147230981/9fc47603-7307-458b-b596-865bcc43f524)
+![State Machine Diagram-Upload Resources](https://github.com/MetaKt/StudyMate/assets/147230981/2f32954b-2777-4b05-9f21-9b441bb9ec32)
+
 <p align = "left"> Figure 3.3.5 State Machine Diagram (Upload Resources)
 
 
