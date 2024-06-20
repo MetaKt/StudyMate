@@ -559,9 +559,13 @@ In our project, we will separate the Sequence Diagram into two sections includin
 
 ## 3.3 State Machine Diagram
 A state machine diagram, also known as a state diagram or state transition diagram, is a graphical representation of a system's behavior that models the different states the system can be in, as well as the transitions between those states.
+
+<br>
 ![State Machine Diagram-Log In](https://github.com/MetaKt/StudyMate/assets/147230981/4c9ef0ce-c357-45cb-bfb3-ca96a68092ab)
-
-
+<p align = "left"> Figure 3.3.1 State Machine Diagram (Log In)
+<br>
+<br>
+ 
 ## 3.4 Activity Diagram for Major Use Cases
 An activity diagram is a type of Unified Modeling Language (UML) diagram that is used to model the flow of activities or actions within a system or a business process
 <br>
