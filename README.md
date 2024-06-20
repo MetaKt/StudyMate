@@ -439,15 +439,18 @@ This diagram shows how the admin can take action with inappropriate behavior. Fi
 ## 3.2 Activity Diagram for Major Use Cases
 An activity diagram is a type of Unified Modeling Language (UML) diagram that is used to model the flow of activities or actions within a system or a business process
 
-![StudyMate_ActivityDiagrams-Page-1](https://github.com/MetaKt/StudyMate/assets/131533232/a10f2b2d-4192-4b83-a5eb-4895e470e7fa)
+![StudyMate_ActivityDiagrams-Page-1](https://github.com/MetaKt/StudyMate/assets/131533232/17560f70-04f0-46ed-b7b0-580b04209653)
+
 
 <p align = "left"> Figure 3.3.1 Activity Diagram (Browse General Library & Group Joining) </p>
 
-![StudyMate_ActivityDiagrams-Page-2](https://github.com/MetaKt/StudyMate/assets/131533232/6c25b453-a35b-43bc-b9cb-9644a3b958f1)
+![StudyMate_ActivityDiagrams-Page-2](https://github.com/MetaKt/StudyMate/assets/131533232/d2fe9f3a-2380-485c-87dc-42e074a303ad)
+
 
 <p align = "left"> Figure 3.3.2 Activity Diagram (Upload Resource & Sign Up) </p>
 
-![StudyMate_ActivityDiagrams-Page-3](https://github.com/MetaKt/StudyMate/assets/131533232/0ef5ab1b-0c3d-42aa-9070-a1a921439aec)
+![StudyMate_ActivityDiagrams-Page-3](https://github.com/MetaKt/StudyMate/assets/131533232/60f6e48b-df38-4900-9b1d-eab8ae26a98d)
+
 
 <p align = "left"> Figure 3.3.3 Activity Diagram (Click Help) </p>
 <br>
